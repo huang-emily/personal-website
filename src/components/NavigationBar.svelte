@@ -1,6 +1,6 @@
 <script>
     let menuItemSize = "45px";
-    let menuItemPadding = "2"
+    let menuItemPadding = 4;
 </script>
 
 <div class="flex flex-col gap-y-10" id="nav-bar">
