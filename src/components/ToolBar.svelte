@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Page from "../routes/+page.svelte";
     import { toggleDarkMode, getStrokeColor, getDarkMode } from "../shared.svelte.js";
 
 	let date = new Date();
@@ -23,6 +24,7 @@
         backgroundAudio = new Audio("/financial-obligations-pm-music.wav");
         backgroundAudio.volume = 0.2;
         backgroundAudio.loop = true;
+
         const interval = setInterval(() => {
             date = new Date();
             hour = date.getHours();
@@ -51,7 +53,7 @@
             </svg>
         {/if}
     </button>
-    <p>{hour - 12 <= 0? hour : hour - 12}:{min.toString().padStart(2,"0")} {dayOrNight}</p>
+    <p style="color: {getStrokeColor()}">{hour - 12 <= 0? hour : hour - 12}:{min.toString().padStart(2,"0")} {dayOrNight}</p>
     <button onclick={toggleMusic}>
         {#if getMusicMode()}
             <svg  class="hover:scale-125" width="{musicModeIconSize}" height="{musicModeIconSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
