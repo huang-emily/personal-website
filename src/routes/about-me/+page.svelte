@@ -3,12 +3,12 @@
     import { getIconSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
 </script>
 
-<div class="mt-26 mb-14 mx-auto flex flex-col gap-y-4 px-16">
+<div class="mt-26 mb-12 mx-auto flex flex-col gap-y-4 px-16">
     <!-- about me header -->
-    <div class="flex flex-row gap-x-4 mx-auto items-center">
+    <div class="max-w-2xl flex flex-row gap-x-2">
         <!-- my headshot! -->
         <svg
-        class="w-50"
+        class="w-42"
         viewBox="0 0 818 733"
         version="1.1"
         id="svg1"
@@ -23,7 +23,6 @@
                 height="425.60602"
                 x="8.2910261"
                 y="-8.2910261" /></clipPath></defs>
-            <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
             <desc
             id="desc1">Created with Sketch.</desc><g
             id="body/mono/Hoodie"
@@ -60,8 +59,9 @@
             fill="{getStrokeColor()}"
             style="fill-rule:evenodd;stroke:none;stroke-width:1" /></svg>
         <!-- title information -->
-        <div class="flex flex-col place-self-center">
-            <h1 class=" text-4xl md:text-5xl mb-1"><span style="color: {getStrokeColor()};">Emily Huang</span></h1>
+        <div class="ml-2 flex flex-col place-self-center">
+            <!-- MY NAME -->
+            <h1 class=" text-4xl md:text-5xl mb-1 font-semibold"><span style="color: {getStrokeColor()};">Emily Huang</span></h1>
             <ul class="text-sm md:text-base">
                 <li>Trends Data Research Manager (Contract) @ Google</li>
                 <li>Former Product Manager 2 @ Microsoft</li>
@@ -108,7 +108,8 @@
         </div>
     </div>
 
-    <div class="max-w-xl mx-auto flex flex-col gap-y-4">
+    <!-- TEXT AFTER HEADER -->
+    <div class="max-w-2xl flex flex-col gap-y-4">
         <!-- Introduction -->
         <div class="flex flex-col">
             <div class="flex flex-row gap-x-1">
@@ -117,14 +118,14 @@
                     <path d="M14.8252 2.18595C16.5021 1.70882 18.2333 2.16305 19.4417 3.39724" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round"/>
                     <path d="M4.0106 8.36655L3.63846 7.71539L4.0106 8.36655ZM6.50218 8.86743L7.15007 8.48962L6.50218 8.86743ZM3.2028 10.7531L2.55491 11.1309H2.55491L3.2028 10.7531ZM7.69685 3.37253L8.34474 2.99472V2.99472L7.69685 3.37253ZM8.53873 4.81624L7.89085 5.19405L8.53873 4.81624ZM10.4165 9.52517C10.6252 9.88299 11.0844 10.0039 11.4422 9.79524C11.8 9.58659 11.9209 9.12736 11.7123 8.76955L10.4165 9.52517ZM7.53806 12.1327C7.74672 12.4905 8.20594 12.6114 8.56376 12.4027C8.92158 12.1941 9.0425 11.7349 8.83384 11.377L7.53806 12.1327ZM4.39747 5.25817L3.74958 5.63598L4.39747 5.25817ZM11.8381 2.9306L12.486 2.55279V2.55279L11.8381 2.9306ZM14.3638 7.26172L15.0117 6.88391L14.3638 7.26172ZM16.0475 10.1491L16.4197 10.8003C16.5934 10.701 16.7202 10.5365 16.772 10.3433C16.8238 10.15 16.7962 9.94413 16.6954 9.77132L16.0475 10.1491ZM17.0153 5.75389C17.2239 6.11171 17.6831 6.23263 18.041 6.02397C18.3988 5.81531 18.5197 5.35609 18.311 4.99827L17.0153 5.75389ZM20.1888 9.7072L20.8367 9.32939V9.32939L20.1888 9.7072ZM6.99128 17.2497L7.63917 16.8719L6.99128 17.2497ZM16.9576 19.2533L16.5854 18.6021L16.9576 19.2533ZM13.784 15.3C13.9927 15.6578 14.4519 15.7787 14.8097 15.5701C15.1676 15.3614 15.2885 14.9022 15.0798 14.5444L13.784 15.3ZM20.347 8.48962C20.1383 8.1318 19.6791 8.01089 19.3213 8.21954C18.9635 8.4282 18.8426 8.88742 19.0512 9.24524L20.347 8.48962ZM8.98692 20.1803C9.35042 20.3789 9.80609 20.2452 10.0047 19.8817C10.2033 19.5182 10.0697 19.0626 9.70616 18.864L8.98692 20.1803ZM13.8888 19.5453C13.4792 19.6067 13.1969 19.9886 13.2583 20.3982C13.3197 20.8079 13.7015 21.0902 14.1112 21.0288L13.8888 19.5453ZM4.38275 9.0177C5.01642 8.65555 5.64023 8.87817 5.85429 9.24524L7.15007 8.48962C6.4342 7.26202 4.82698 7.03613 3.63846 7.71539L4.38275 9.0177ZM3.63846 7.71539C2.44761 8.39597 1.83532 9.8969 2.55491 11.1309L3.85068 10.3753C3.64035 10.0146 3.75139 9.37853 4.38275 9.0177L3.63846 7.71539ZM7.04896 3.75034L7.89085 5.19405L9.18662 4.43843L8.34474 2.99472L7.04896 3.75034ZM7.89085 5.19405L10.4165 9.52517L11.7123 8.76955L9.18662 4.43843L7.89085 5.19405ZM8.83384 11.377L7.15007 8.48962L5.85429 9.24524L7.53806 12.1327L8.83384 11.377ZM7.15007 8.48962L5.04535 4.88036L3.74958 5.63598L5.85429 9.24524L7.15007 8.48962ZM5.57742 3.5228C6.21109 3.16065 6.8349 3.38327 7.04896 3.75034L8.34474 2.99472C7.62887 1.76712 6.02165 1.54123 4.83313 2.22048L5.57742 3.5228ZM4.83313 2.22048C3.64228 2.90107 3.02999 4.40199 3.74958 5.63598L5.04535 4.88036C4.83502 4.51967 4.94606 3.88363 5.57742 3.5228L4.83313 2.22048ZM11.1902 3.30841L13.7159 7.63953L15.0117 6.88391L12.486 2.55279L11.1902 3.30841ZM13.7159 7.63953L15.3997 10.5269L16.6954 9.77132L15.0117 6.88391L13.7159 7.63953ZM9.71869 3.08087C10.3524 2.71872 10.9762 2.94134 11.1902 3.30841L12.486 2.55279C11.7701 1.32519 10.1629 1.0993 8.9744 1.77855L9.71869 3.08087ZM8.9744 1.77855C7.78355 2.45914 7.17126 3.96006 7.89085 5.19405L9.18662 4.43843C8.97629 4.07774 9.08733 3.4417 9.71869 3.08087L8.9744 1.77855ZM15.5437 5.52635C16.1774 5.1642 16.8012 5.38682 17.0153 5.75389L18.311 4.99827C17.5952 3.77068 15.988 3.54478 14.7994 4.22404L15.5437 5.52635ZM14.7994 4.22404C13.6086 4.90462 12.9963 6.40555 13.7159 7.63953L15.0117 6.88391C14.8013 6.52322 14.9124 5.88718 15.5437 5.52635L14.7994 4.22404ZM2.55491 11.1309L6.34339 17.6276L7.63917 16.8719L3.85068 10.3753L2.55491 11.1309ZM19.5409 10.085C21.1461 12.8377 19.9501 16.6792 16.5854 18.6021L17.3297 19.9045C21.2539 17.6618 22.9512 12.9554 20.8367 9.32939L19.5409 10.085ZM15.0798 14.5444C14.4045 13.3863 14.8772 11.6818 16.4197 10.8003L15.6754 9.49797C13.5735 10.6993 12.5995 13.2687 13.784 15.3L15.0798 14.5444ZM19.0512 9.24524L19.5409 10.085L20.8367 9.32939L20.347 8.48962L19.0512 9.24524ZM9.70616 18.864C8.85353 18.3981 8.13826 17.7278 7.63917 16.8719L6.34339 17.6276C6.98843 18.7337 7.90969 19.5917 8.98692 20.1803L9.70616 18.864ZM16.5854 18.6021C15.7158 19.0991 14.7983 19.409 13.8888 19.5453L14.1112 21.0288C15.2038 20.865 16.2984 20.4939 17.3297 19.9045L16.5854 18.6021Z" fill="{getStrokeColor()}"/>
                 </svg>
-                <h1 class="text-3xl md:text-4xl">Hiya again!</h1>
+                <h1 class="text-2xl md:text-3xl font-medium">Hiya again!</h1>
             </div>
 
             <p class="text-sm md:text-base">I'm Emily, and I'm Data Analytics professional with <span class="font-semibold">5+ years in driving product strategy</span>.</p>
             
             <div class="mt-2 text-sm md:text-base">
                 <p>A little bit about me:</p>
-                <ul class="pl-2 list-disc pl-5">
+                <ul class="list-disc pl-5">
                     <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
                     <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
                     <li>I'm interested in working in a creative industry like social media or gaming!</li>
@@ -133,7 +134,7 @@
         </div>
 
         <!-- Education -->
-        <div>
+        <div class="pt-2">
             <div class="flex flex-row gap-x-1">
                 <svg width="{getIconSize()}" viewBox="0 0 800 800" enable-background="new 0 0 800 800" id="GUIDE" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g>
@@ -142,21 +143,21 @@
                         <path d="M169.648,460.571c11.046,0,20-8.954,20-20v-6.655c0-11.046-8.954-20-20-20s-20,8.954-20,20v6.655   C149.648,451.617,158.602,460.571,169.648,460.571z" fill="{getStrokeColor()}"/>
                     </g>
                 </svg>
-                <h1 class="text-3xl md:text-4xl">Education</h1>
+                <h1 class="text-2xl md:text-3xl font-semibold">Education</h1>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2">
                 <div>
-                    <h1 class="text-lg md:text-xl">University of California, Berkeley</h1>
-                    <div class="border-l-4 pl-5 mb-4 text-sm md:text-base">
+                    <h1 class="text-md md:text-lg">University of California, Berkeley</h1>
+                    <div class="border-l-2 pl-5 mb-4 text-sm md:text-base">
                         <p>Master in Information and Data Science</p>
                         <p>2021 - 2023</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-xl">University of California, Riverside</h1>
-                    <div class="border-l-4 pl-5 mb-2 text-sm md:text-base">
+                    <h1 class="text-md md:text-lg">University of California, Riverside</h1>
+                    <div class="border-l-2 pl-5 mb-2 text-sm md:text-base">
                         <p>Bachelor of Science in Computer Science</p>
                         <p>2015 - 2019</p>
                     </div>
@@ -164,49 +165,49 @@
             </div>
         </div>
 
-        <!-- skills interests -->
+        <!-- skills -->
         <div class="">
             <div class="flex flex-row gap-x-1">
                 <svg fill="{getStrokeColor()}" width="{getIconSize()}" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.25 10.71 11.57 8l2.26-2.26a2.49 2.49 0 0 0 0-3.53 2.5 2.5 0 0 0-3.53 0l-.89.88L8 4.5 5.28 1.75a1.26 1.26 0 0 0-1.76 0L1.75 3.52a1.25 1.25 0 0 0 0 1.77L4.5 8l-.22.22-.89.88-1.75 3.66a1.25 1.25 0 0 0 1.67 1.67l3.62-1.75.49-.49.39-.39.19-.23 2.68 2.68a1.26 1.26 0 0 0 1.76 0l1.77-1.77a1.25 1.25 0 0 0 .04-1.77zm-2.19-8a1.27 1.27 0 0 1 .89.36 1.25 1.25 0 0 1 0 1.77l-1.77-1.72a1.27 1.27 0 0 1 .88-.36zM2.63 4.4 4.4 2.64l.82.82-.87.88.88.88.88-.88 1 1-1.73 1.81zm.13 8.91 1.57-3.23L6 11.74zm4.17-2.4L5.16 9.14 10.3 4l1.76 1.76zm4.67 2.45-2.68-2.67 1.77-1.77.93.93-.88.88.88.89.89-.89.86.87z"/>
                 </svg>
-                <h1 class="text-3xl md:text-4xl">Skills</h1>
+                <h1 class="text-2xl md:text-3xl font-semibold">Skills</h1>
             </div>
 
             <!-- display skills -->
-            <div class="grid grid-cols-1">
+            <div class="grid grid-cols-1 gap-y-2">
                 <div>
-                    <h1 class="text-lg md:text-xl">Data Analytics</h1>
-                    <div class="border-l-4 pl-5 mb-2 text-sm md:text-base">
+                    <h1 class="text-md md:text-lg">Data Analytics</h1>
+                    <div class="border-l-2 pl-5 text-sm md:text-base">
                         <p>Power BI, Python (Matplotlib, Numpy, Pandas, Seaborn, Streamlit), SQL, SQL Server Management Studio</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-xl">Product Management</h1>
-                    <div class="border-l-4 pl-5 mb-2 text-sm md:text-base">
+                    <h1 class="text-lg md:text-lg">Product Management</h1>
+                    <div class="border-l-2 pl-5 text-sm md:text-base">
                         <p>Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-xl">Web Development</h1>
-                    <div class="border-l-4 pl-5 mb-4 text-sm md:text-base">
-                        <p>Python (Flask), Javascript (Svelte), HTML/CSS (TailwindCSS)</p>
+                    <h1 class="text-lg md:text-lg">Web Development</h1>
+                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                        <p>Python Flask, Javascript, Svelte, HTML/CSS, TailwindCSS, Bootstrap</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-xl">Other</h1>
-                    <div class="border-l-4 pl-5 mb-2 text-sm md:text-base">
-                        <p>Creativity, Detail-Oriented, Adapatability, Reliability</p>
+                    <h1 class="text-lg md:text-lg">Other</h1>
+                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                        <p>Creativity, Adaptability, Reliability, Critical Thinking, Resourcefulness, Empathy</p>
                     </div>
                 </div>
             </div>
         </div>
         
         <!-- Interests -->
-        <div class="flex flex-col">
+        <div class="pt-2 flex flex-col">
             <div class="flex flex-row gap-x-1">
                 <svg width="{getIconSize()}" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="页面-1" stroke="none" stroke-width="1" fill="{getWebsiteBgColor()}" fill-rule="evenodd">
@@ -218,14 +219,14 @@
                         </g>
                     </g>
                 </svg>
-                <h1 class="text-3xl md:text-4xl">Interests</h1>
+                <h1 class="text-2xl md:text-3xl font-semibold">Interests</h1>
             </div>
-            <div class="mt-2 text-xs md:text-base">
+            <div class="text-sm md:text-base">
                 <ul class="pl-2 list-disc pl-5">
-                    <li>playing and developing video games</li>
+                    <li>playing and developing video games (favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
                     <li>watching video essays, comedy commentary, and tech videos</li>
                     <li>acting and improv</li>
-                    <li>...and building pretty things like this website! :)</li>
+                    <li>and building pretty things like this website!</li>
                 </ul>
             </div>
         </div>

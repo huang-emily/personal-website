@@ -3,7 +3,7 @@
     import "../app.css";
 	import Footer from "../components/Footer.svelte";
 	import ToolBar from "../components/ToolBar.svelte";
-    import { getWebsiteBgColor, getStrokeColor } from "../shared.svelte.js";
+    import { getWebsiteBgColor, getStrokeColor, toggleDarkMode, getDarkMode } from "../shared.svelte.js";
 </script>
 
 <div style="background-color: {getWebsiteBgColor()}; color: {getStrokeColor()};"
