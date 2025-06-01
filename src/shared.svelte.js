@@ -7,6 +7,9 @@ let menuStrokeColor = $derived(isDarkMode? colors.eggshell : colors.black );
 let menuItemColor = $derived(isDarkMode? colors.eggshell: colors.black);
 let websiteBgColor = $derived(isDarkMode? colors.black : colors.white);
 
+let iconSize = "2rem";
+let sunIconSize = "2.25rem";
+
 export function toggleDarkMode() {
     isDarkMode = !isDarkMode;
 }
@@ -29,4 +32,12 @@ export function getMenuItemColor() {
 
 export function getWebsiteBgColor() {
     return websiteBgColor;
+}
+
+export function getIconSize() {
+    return iconSize;
+}
+
+export function getSunIconSize() {
+    return sunIconSize;
 }
