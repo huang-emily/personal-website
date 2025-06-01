@@ -3,7 +3,7 @@
     import { getStrokeColor, getWebsiteBgColor } from "../shared.svelte";
 </script>
 
-<div class="text-center flex flex-row items-center gap-x-6">
+<div class="text-center flex flex-col md:flex-row items-center gap-x-6 gap-y-4">
     <!-- svg code for the open peeps character -->
     <svg
     height="300"

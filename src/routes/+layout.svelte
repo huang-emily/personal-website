@@ -7,7 +7,7 @@
 </script>
 
 <div style="background-color: {getWebsiteBgColor()}; color: {getStrokeColor()};"
-    class="min-h-screen flex flex-col content-center justify-between">
+    class="min-h-screen max-w-7xl min-w-xs mx-auto flex flex-col content-center justify-between">
     <ToolBar />
     <div class="relative flex flex-row gap-x-10 items-center justify-center">
         <div>
