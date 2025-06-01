@@ -2,9 +2,12 @@
     import "../../app.css";
 </script>
 
-<div class="">
-    <h1>Projects!!</h1>
-    <p>wow so many cool projects</p>
+<div class="flex flex-col">
+    <h1 class="text-7xl">Projects</h1>
+    <!-- Projects List! -->
+    <div>
+        
+    </div>
 </div>
 
 <style lang="postcss">
