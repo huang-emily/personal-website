@@ -3,7 +3,7 @@
     import { getIconSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
 </script>
 
-<div class="mt-20 mx-auto flex flex-col gap-y-4 px-16">
+<div class="mt-26 mb-14 mx-auto flex flex-col gap-y-4 px-16">
     <!-- about me header -->
     <div class="flex flex-row gap-x-4 mx-auto items-center">
         <!-- my headshot! -->
@@ -63,7 +63,7 @@
         <div class="flex flex-col place-self-center">
             <h1 class=" text-4xl md:text-5xl mb-1"><span style="color: {getStrokeColor()};">Emily Huang</span></h1>
             <ul class="text-sm md:text-base">
-                <li>Trends Data Research Manager (Contract) @ Youtube</li>
+                <li>Trends Data Research Manager (Contract) @ Google</li>
                 <li>Former Product Manager 2 @ Microsoft</li>
             </ul>
             
@@ -108,7 +108,7 @@
         </div>
     </div>
 
-    <div class="max-w-2xl mx-auto flex flex-col gap-y-4">
+    <div class="max-w-xl mx-auto flex flex-col gap-y-4">
         <!-- Introduction -->
         <div class="flex flex-col">
             <div class="flex flex-row gap-x-1">
@@ -125,9 +125,9 @@
             <div class="mt-2 text-sm md:text-base">
                 <p>A little bit about me:</p>
                 <ul class="pl-2 list-disc pl-5">
-                    <li>I'm looking to break into Product Analytics and Consumer Insights.</li>
-                    <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development.</li>
-                    <li>I'm interested in working in a creative industry like social media or video games!</li>
+                    <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
+                    <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
+                    <li>I'm interested in working in a creative industry like social media or gaming!</li>
                 </ul>
             </div>
         </div>
@@ -165,7 +165,7 @@
         </div>
 
         <!-- skills interests -->
-        <div>
+        <div class="">
             <div class="flex flex-row gap-x-1">
                 <svg fill="{getStrokeColor()}" width="{getIconSize()}" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.25 10.71 11.57 8l2.26-2.26a2.49 2.49 0 0 0 0-3.53 2.5 2.5 0 0 0-3.53 0l-.89.88L8 4.5 5.28 1.75a1.26 1.26 0 0 0-1.76 0L1.75 3.52a1.25 1.25 0 0 0 0 1.77L4.5 8l-.22.22-.89.88-1.75 3.66a1.25 1.25 0 0 0 1.67 1.67l3.62-1.75.49-.49.39-.39.19-.23 2.68 2.68a1.26 1.26 0 0 0 1.76 0l1.77-1.77a1.25 1.25 0 0 0 .04-1.77zm-2.19-8a1.27 1.27 0 0 1 .89.36 1.25 1.25 0 0 1 0 1.77l-1.77-1.72a1.27 1.27 0 0 1 .88-.36zM2.63 4.4 4.4 2.64l.82.82-.87.88.88.88.88-.88 1 1-1.73 1.81zm.13 8.91 1.57-3.23L6 11.74zm4.17-2.4L5.16 9.14 10.3 4l1.76 1.76zm4.67 2.45-2.68-2.67 1.77-1.77.93.93-.88.88.88.89.89-.89.86.87z"/>
@@ -225,6 +225,7 @@
                     <li>playing and developing video games</li>
                     <li>watching video essays, comedy commentary, and tech videos</li>
                     <li>acting and improv</li>
+                    <li>...and building pretty things like this website! :)</li>
                 </ul>
             </div>
         </div>

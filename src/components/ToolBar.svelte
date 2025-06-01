@@ -23,7 +23,7 @@
 </script>
 
 <div style="background-color: {getWebsiteBgColor()};" 
-    class="fixed z-10 top-0 w-full px-4 pt-6 md:px-8 flex flex-row items-center content-center justify-between" id="toolbar">
+    class="fixed z-10 top-0 w-full max-w-7xl px-4 pt-6 md:px-8 flex flex-row items-center self-center justify-between" id="toolbar">
     <NavigationBar />
     <!-- <p style="color: {getStrokeColor()}">{hour - 12 <= 0? hour : hour - 12}:{min.toString().padStart(2,"0")} {dayOrNight}</p> -->
     <UtilityBar />
