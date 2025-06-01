@@ -21,7 +21,7 @@
     })
 </script>
 
-<div class="w-full absolute px-4 py-6 flex flex-row items-center content-center justify-between" id="toolbar">
+<div class="w-full px-4 py-6 flex flex-row items-center content-center justify-between" id="toolbar">
     <NavigationBar />
     <!-- <p style="color: {getStrokeColor()}">{hour - 12 <= 0? hour : hour - 12}:{min.toString().padStart(2,"0")} {dayOrNight}</p> -->
     <UtilityBar />
