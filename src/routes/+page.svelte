@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import "../app.css";
     import { getStrokeColor, getWebsiteBgColor } from "../shared.svelte";
 </script>
@@ -51,7 +51,7 @@
         style="fill-rule:evenodd;stroke:none;stroke-width:1" /></svg>
 
     <div>
-        <h1 class="text-7xl/20">hi, i'm emily!</h1>
+        <h1 class="text-7xl/20">hi, i'm <span style="color: {getStrokeColor()};">emily</span>!</h1>
         <p class="text-lg">product manager + data analyst + web developer</p>
     </div>
 </div>

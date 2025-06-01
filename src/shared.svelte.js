@@ -2,9 +2,9 @@
 // lightmode background color, darkmode background color, menuitem color
 const colors = { white:"#FFFFFF" , black:"#000000", eggshell:"#fdffe0"};
 let isDarkMode = $state(false);
-let strokeColor = $derived(isDarkMode? colors.eggshell : colors.black );
-let menuStrokeColor = $derived(isDarkMode? colors.eggshell : colors.black );
-let menuItemColor = $derived(isDarkMode? colors.eggshell: colors.black);
+let strokeColor = $derived(isDarkMode? colors.white : colors.black );
+let menuStrokeColor = $derived(isDarkMode? colors.white : colors.black );
+let menuItemColor = $derived(isDarkMode? colors.white: colors.black);
 let websiteBgColor = $derived(isDarkMode? colors.black : colors.white);
 
 let iconSize = "2rem";

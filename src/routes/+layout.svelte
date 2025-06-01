@@ -7,9 +7,9 @@
 </script>
 
 <div style="background-color: {getWebsiteBgColor()}; color: {getStrokeColor()};"
-    class="min-h-screen max-w-7xl min-w-xs mx-auto flex flex-col content-center justify-between">
+    class="min-h-screen mx-auto flex flex-col content-center">
     <ToolBar />
-    <div class="relative flex flex-row gap-x-10 items-center justify-center">
+    <div class="max-w-7xl mx-auto my-auto flex flex-row gap-x-10 items-center justify-center">
         <div>
             {@render children()}
         </div>
