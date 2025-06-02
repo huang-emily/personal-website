@@ -52,7 +52,7 @@
         style="fill-rule:evenodd;stroke:none;stroke-width:1" /></svg>
 
     <div>
-        <h1 class="text-7xl/20">hi, i'm <span style="color: {getStrokeColor()};">emily</span>!</h1>
+        <h1 class="text-7xl/20 font-light">hi, i'm <span class="font-semibold underline deocration-6 decoration-sky-400">emily</span>!</h1>
         <p class="text-lg">product manager + data analyst + web developer</p>
     </div>
 </div>

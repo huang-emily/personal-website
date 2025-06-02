@@ -3,7 +3,16 @@
     import "../app.css";
 	import Footer from "../components/Footer.svelte";
 	import ToolBar from "../components/ToolBar.svelte";
-    import { getWebsiteBgColor, getStrokeColor, toggleDarkMode, getDarkMode } from "../shared.svelte.js";
+    import { getWebsiteBgColor, getStrokeColor, getDarkMode } from "../shared.svelte.js";
+
+    $effect(() => {
+        document.documentElement.classList.toggle(  
+            "dark", 
+            localStorage.theme === "dark" ||    
+            (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches),
+        );
+    })
+
 </script>
 
 <div style="background-color: {getWebsiteBgColor()}; color: {getStrokeColor()};"

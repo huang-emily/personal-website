@@ -34,7 +34,7 @@
 
 <div class="flex flex-col gap-y-4 pr-10 ml-20 mt-10 mb-8 lg:pr-10 lg:pl-4 sm:max-w-[52rem] xl:max-w-5xl">
     <div class="text-center">
-        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-1">Projects</h1>
+        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-1" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
     </div>
 
     <!-- Projects List! -->
@@ -47,14 +47,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
                 <!-- image of project that links to website -->
                 <a class="" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 duration-500 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                    <img class="grayscale hover:grayscale-0 hover:scale-103 duration-300 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
                     <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="text-xl md:text-2xl font-semibold">{project.name}</h1>
-                        <a class="hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
+                        <h1 class="text-xl md:text-2xl font-semibold underline decoration-2 decoration-sky-400">{project.name}</h1>
+                        <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                             <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
                                 <rect width="24" height="24" fill="{getWebsiteBgColor()}"/>
@@ -66,7 +66,7 @@
                     <div class="text-xs sm:text-sm xl:text-base">
                         <p class="mb-2">✱ {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
-                        <p><span class="font-semibold text-base">Built with:</span> {project.tools}</p> 
+                        <p class=""><span class="text-base font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
                     </div>
                 </div>
             </div>

@@ -61,7 +61,7 @@
         <!-- title information -->
         <div class="ml-2 flex flex-col place-self-center">
             <!-- MY NAME -->
-            <h1 class=" text-4xl md:text-5xl mb-1 font-semibold"><span style="color: {getStrokeColor()};">Emily Huang</span></h1>
+            <h1 class=" text-4xl md:text-5xl mb-1 font-semibold"><span class="underline decoration-4 decoration-sky-400">Emily Huang</span></h1>
             <ul class="text-sm md:text-base">
                 <li>Trends Data Research Manager (Contract) @ Google</li>
                 <li>Former Product Manager 2 @ Microsoft</li>
@@ -71,7 +71,7 @@
             <div class="mt-2 flex flex-row gap-x-1 items-center">
                 <!-- linkedin -->
                 <!-- svelte-ignore a11y_consider_explicit_label -->
-                <a class="hover:scale-125" href="https://www.linkedin.com/in/huang-emily/" rel="noopener noreferrer" target="_blank">
+                <a class="duration-300 hover:scale-125" href="https://www.linkedin.com/in/huang-emily/" rel="noopener noreferrer" target="_blank">
                     <svg width="{getLinkSize()}" viewBox="0 0 24 24" fill="{getWebsiteBgColor()}" xmlns="http://www.w3.org/2000/svg">
                         <title>LinkedIn Profile</title>
                         <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="{getStrokeColor()}"/>
@@ -81,7 +81,7 @@
                     </svg>
                 </a>
                 <!-- github -->
-                <a class="hover:scale-125" href="https://github.com/huang-emily" rel="noopener noreferrer" target="_blank">
+                <a class="duration-300 hover:scale-125" href="https://github.com/huang-emily" rel="noopener noreferrer" target="_blank">
                     <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Github Profile</title>
                         <rect width="24" height="24" fill="{getWebsiteBgColor()}"/>
@@ -90,7 +90,7 @@
                 </a>
                 <!-- resume -->
                 <!-- svelte-ignore a11y_consider_explicit_label -->
-                <a class="hover:scale-125" href="https://drive.google.com/file/d/1Ld2zjBUhH9h_zC_0wBfQHBtL_npukaUx/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                <a class="duration-300 hover:scale-125" href="https://drive.google.com/file/d/1Ld2zjBUhH9h_zC_0wBfQHBtL_npukaUx/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                     <svg width="{getLinkSize()}" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                         viewBox="0 0 512 512"  xml:space="preserve">
                         <title>Resume Link</title>
@@ -121,15 +121,15 @@
                 <h1 class="text-2xl md:text-3xl font-medium">Hiya again!</h1>
             </div>
 
-            <p class="text-sm md:text-base">I'm Emily, and I'm Data Analytics professional with <span class="font-semibold">5+ years in driving product strategy</span>.</p>
+            <p class="text-sm md:text-base">I'm Emily, and I'm Data Analytics professional with <span class="font-semibold underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span>.</p>
             
             <div class="mt-2 text-sm md:text-base">
                 <p>A little bit about me:</p>
-                <ul class="list-disc pl-5">
+                <div class="list-disc pl-5">
                     <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
                     <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
-                    <li>I'm interested in working in a creative industry like social media or gaming!</li>
-                </ul>
+                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in working in a creative industry like social media or gaming</span>!</li>
+                </div>
             </div>
         </div>
 
@@ -153,7 +153,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                 <div>
                     <h1 class="text-md md:text-lg">University of California, Berkeley</h1>
-                    <div class="border-l-2 pl-5 mb-4 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 mb-4 text-sm md:text-base">
                         <p>Master in Information and Data Science</p>
                         <p>2021 - 2023</p>
                     </div>
@@ -161,7 +161,7 @@
 
                 <div>
                     <h1 class="text-md md:text-lg">University of California, Riverside</h1>
-                    <div class="border-l-2 pl-5 mb-2 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 mb-2 text-sm md:text-base">
                         <p>Bachelor of Science in Computer Science</p>
                         <p>2015 - 2019</p>
                     </div>
@@ -190,28 +190,28 @@
             <div class="grid grid-cols-1 gap-y-2">
                 <div>
                     <h1 class="text-md md:text-lg">Data Analytics</h1>
-                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
                         <p>Power BI, Python (Matplotlib, Numpy, Pandas, Seaborn, Streamlit), SQL, SQL Server Management Studio</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Product Management</h1>
-                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
                         <p>Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Web Development</h1>
-                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
                         <p>Python Flask, Javascript, Svelte, HTML/CSS, TailwindCSS, Bootstrap, Git</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Other</h1>
-                    <div class="border-l-2 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
                         <p>Creativity, Adaptability, Reliability, Critical Thinking, Resourcefulness, Empathy</p>
                     </div>
                 </div>

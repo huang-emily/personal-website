@@ -1,11 +1,17 @@
 // original colors: "#fdffe0" , "#1e1e1e"
 // lightmode background color, darkmode background color, menuitem color
-const colors = { white:"#FFFFFF" , black:"#000000", eggshell:"#fdffe0"};
+const palette = {
+    white:"#FFFFFF", 
+    black:"#121212", 
+    eggshell:"#fdffe0",
+    sky: "#ebfaff",
+};
+
 let isDarkMode = $state(false);
-let strokeColor = $derived(isDarkMode? colors.white : colors.black );
-let menuStrokeColor = $derived(isDarkMode? colors.white : colors.black );
-let menuItemColor = $derived(isDarkMode? colors.white: colors.black);
-let websiteBgColor = $derived(isDarkMode? colors.black : colors.white);
+let strokeColor = $derived(isDarkMode? palette.sky : palette.black );
+let menuStrokeColor = $derived(isDarkMode? palette.white : palette.black );
+let menuItemColor = $derived(isDarkMode? palette.white : palette.black );
+let websiteBgColor = $derived(isDarkMode? palette.black : palette.white );
 
 let iconSize = "2.50rem";
 let linkSize = "2.00rem";
@@ -13,6 +19,7 @@ let navItemSize = "2.00rem";
 let sunIconSize = "2.50rem";
 
 export function toggleDarkMode() {
+    localStorage.theme = isDarkMode? "dark" : "light";
     isDarkMode = !isDarkMode;
 }
 
