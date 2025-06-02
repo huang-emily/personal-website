@@ -23,18 +23,20 @@
         {
             name: "This Website!",
             picture: "/personalwebsite-snapshot.png",
-            url: "https://keep-me-safe.onrender.com/",
+            url: "https://www.emilyhuang.io/",
             github: "https://github.com/huang-emily/personal-website",
-            description: "my personal website that has everything related to my skills and qualifications (ᵔ ᵕ ᵔ)",
+            description: "my personal website that has everything related to my skills and qualifications ᵔᵕᵔ",
             blurb: "My first attempt building with Svelte! I was inspired to learn it when talking to an interviewer about a website called Pudding that has amazing data visualizations. I saw a lot of the Pudding team members used Svelte, so I decided to start using it too.",
             tools: "Svelte, Javascript, TailwindCSS, HTML/CSS",
         },
     ]
 </script>
 
-<div class="flex flex-col gap-y-4 mt-10 mb-8 sm:max-w-[52rem] xl:max-w-5xl">
-    <div class="text-center">
-        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-1" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+<div class="flex flex-col gap-y-4 mt-10 mb-8 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
+    <!-- project header -->
+    <div class="text-center -mb-6">
+        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <p class="text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->
@@ -46,8 +48,8 @@
             <!-- structures image and text as a column -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
                 <!-- image of project that links to website -->
-                <a class="" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 hover:scale-103 duration-300 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                <a class="outline-5 outline-sky-400 rounded-[0.75rem] duration-300 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
+                    <img class="grayscale hover:grayscale-0 hover:scale-105 duration-300 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
@@ -63,7 +65,7 @@
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class="text-xs sm:text-sm xl:text-base">
+                    <div class="text-xs xl:text-sm xl:text-base">
                         <p class="mb-2">✱ {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p class=""><span class="text-base font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
