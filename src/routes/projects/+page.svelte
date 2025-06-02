@@ -3,43 +3,54 @@
     import { getLinkSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
     const projectList = [
         {
-            name: "Mass Shootings in the US",
+            name: "Gun Trends in the US",
             picture: "/mass-shootings-snapshot.png",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/gun-violence-trends",
-            description: "This is a project description",
-            tools: "Python (Numpy, Pandas, Matplotlib, Seaborn), SQL, Power BI",
+            description: "web application that visualizes gun violence trends in the USA from 2014 - 2023",
+            blurb: "This was an idea I originally had from my Master's program, but I never was able to give it the attention it needed. Through this project, I was able to explore what Python had to offer for Data Analytics and Web Development.",
+            tools: "Python (Numpy, Pandas, Matplotlib, Seaborn), SQL, SQL Server Management Studio, Power BI",
         },
         {
             name: "Keep Me SaFe",
             picture: "/keepmesafe-snapshot.png",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/keep-me-SaFe",
-            description: "This is a project description",
-            tools: "Python (Plotly, Numpy, Pandas, Flask), Javascript, Bootstrap",
+            description: "web application that predicts potential accident hotspots in San Francisco based on a given walking route",
+            blurb: "The project is actually my Master's thesis project! The idea came about when my team members were discussing our experiences with walking around our respective neighborhoods during the pandemic.",
+            tools: "Python (Plotly, Numpy, Pandas, Flask), Javascript, HTML/CSS, Bootstrap",
+        },
+        {
+            name: "This Website!",
+            picture: "/personalwebsite-snapshot.png",
+            url: "https://keep-me-safe.onrender.com/",
+            github: "https://github.com/huang-emily/personal-website",
+            description: "my personal website displaying everything related to my skills and qualifications",
+            blurb: "I was inspired to practice Svelte from an interviewer sharing a website called Pudding that has amazing data visualizations. I saw a lot of the Pudding team members used Svelte which led to my looking into the framework.",
+            tools: "Svelte, Javascript, TailwindCSS, HTML/CSS",
         },
     ]
 </script>
 
-<div class="flex flex-col gap-y-4 pr-10 ml-20 mt-10 mb-8 lg:mt-30 lg:pr-10 lg:pl-4 md:max-w-7xl">
-    <h1 class="text-7xl text-center">Projects</h1>
+<div class="flex flex-col gap-y-4 pr-10 ml-20 mt-10 mb-8 lg:pr-10 lg:pl-4 sm:max-w-[52rem] xl:max-w-5xl">
+    <h1 class="text-5xl text-center font-semibold sm:text-6xl lg:text-7xl mb-6">Projects</h1>
 
     <!-- Projects List! -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-x-6">
+    <div class="grid grid-cols-1 gap-y-6 lg:gap-x-6">
         {#each projectList as project}
         <!-- project item -->
-        <div class="border-2 border-solid px-4 py-6">
+        <div class="border-3 border-dashed rounded-[1rem]">
             <!-- structures image and text as a column -->
-            <div class="flex flex-col gap-x-4 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-8 my-6">
                 <!-- image of project that links to website -->
-                <a href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 duration-300 ease-in-out w-xs sm:w-md object-fill rounded-[1rem]" src="{project.picture}" alt="Project Preview">
+                <a class="" href="{project.url}" rel="noopener noreferrer" target="_blank">
+                    <img class="grayscale hover:grayscale-0 duration-500 ease-in-out rounded-[1rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
-                <div class="mt-4">
+                <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
                     <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="text-xl md:text-2xl">{project.name}</h1>
+                        <h1 class="text-xl md:text-2xl font-semibold">{project.name}</h1>
                         <a class="hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                             <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
@@ -48,12 +59,12 @@
                             </svg>
                         </a>
                     </div>
-
                     <!-- project description and tools used -->
-                    <ol class="text-sm md:text-md">
-                        <li>{project.description}</li>
-                        <li>Built with: {project.tools}</li>
-                    </ol>
+                    <div class="text-sm">
+                        <p class="mb-2">✱ {project.description}</p>
+                        <p class="mb-2">{project.blurb}</p>
+                        <p><span class="font-semibold text-base">Built with:</span> {project.tools}</p> 
+                    </div>
                 </div>
             </div>
         </div>

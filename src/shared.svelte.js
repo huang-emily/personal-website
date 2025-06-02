@@ -9,8 +9,8 @@ let websiteBgColor = $derived(isDarkMode? colors.black : colors.white);
 
 let iconSize = "2.50rem";
 let linkSize = "2.00rem";
-let navItemSize = "2.25rem";
-let sunIconSize = "2.75rem";
+let navItemSize = "2.00rem";
+let sunIconSize = "2.50rem";
 
 export function toggleDarkMode() {
     isDarkMode = !isDarkMode;

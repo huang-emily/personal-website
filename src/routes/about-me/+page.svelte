@@ -3,7 +3,7 @@
     import { getLinkSize, getIconSize, getSunIconSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
 </script>
 
-<div class="flex flex-col gap-y-4 mb-8 mt-10 max-w-xl pr-10 ml-20 lg:pr-10 lg:pl-4 lg:mt-30 md:max-w-7xl">
+<div class="flex flex-col gap-y-4 mb-8 mt-10 max-w-xl pr-10 ml-20 lg:pr-10 lg:pl-4 lg:mt-20 md:max-w-7xl">
     <!-- about me header -->
     <div class="flex flex-row gap-x-2">
         <!-- my headshot! -->

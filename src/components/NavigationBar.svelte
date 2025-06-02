@@ -2,7 +2,7 @@
     import { getNavBarSize, getStrokeColor, getWebsiteBgColor } from "../shared.svelte";
 </script>
 
-<div class="flex flex-col lg:flex-row items-center gap-x-1" id="nav-bar">
+<div class="flex flex-col lg:flex-row items-center gap-x-1 gap-y-1" id="nav-bar">
     <a href="/" class="p-1 hover:scale-125" aria-label="home icon">
         <svg
         width="{getNavBarSize()}"

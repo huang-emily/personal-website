@@ -2,10 +2,10 @@
 </script>
 
 <!-- credits page -->
-<div class="flex flex-row">
+<div class="flex flex-col text-center">
     <!-- credits text -->
-    <div class="text-center">
-        <h1 class="text-6xl">Credits</h1>
+    <h1 class="text-6xl">Credits</h1>
+    <div class="grid grid-cols-1 lg:grid-cols-2">
         <div class="my-5">
             <h1 class="text-4xl">Assets</h1>
             <ul class="text-md">
