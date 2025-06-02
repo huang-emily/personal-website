@@ -32,7 +32,7 @@
     ]
 </script>
 
-<div class="flex flex-col gap-y-4 pr-10 ml-20 mt-10 mb-8 lg:pr-10 lg:pl-4 sm:max-w-[52rem] xl:max-w-5xl">
+<div class="flex flex-col gap-y-4 mt-10 mb-8 sm:max-w-[52rem] xl:max-w-5xl">
     <div class="text-center">
         <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-1" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
     </div>

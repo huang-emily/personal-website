@@ -19,7 +19,7 @@
     class="min-h-screen flex flex-col content-center">
     <ToolBar />
     <div class="mx-auto my-auto flex flex-row gap-x-10 items-center justify-center">
-        <div class="">
+        <div class="ml-20 pr-10 lg:pr-10 lg:pl-4 ">
             {@render children()}
         </div>
     </div>
