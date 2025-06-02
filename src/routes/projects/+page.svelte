@@ -48,8 +48,8 @@
             <!-- structures image and text as a column -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
                 <!-- image of project that links to website -->
-                <a class="outline-5 outline-sky-400 rounded-[0.75rem] duration-300 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 hover:scale-105 duration-300 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                <a class="outline-4 outline-sky-400 rounded-[0.75rem] duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
+                    <img class="grayscale hover:grayscale-0 hover:scale-105 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
