@@ -25,26 +25,29 @@
             picture: "/personalwebsite-snapshot.png",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/personal-website",
-            description: "my personal website displaying everything related to my skills and qualifications",
-            blurb: "I was inspired to practice Svelte from an interviewer sharing a website called Pudding that has amazing data visualizations. I saw a lot of the Pudding team members used Svelte which led to my looking into the framework.",
+            description: "my personal website that has everything related to my skills and qualifications (ᵔ ᵕ ᵔ)",
+            blurb: "My first attempt building with Svelte! I was inspired to learn it when talking to an interviewer about a website called Pudding that has amazing data visualizations. I saw a lot of the Pudding team members used Svelte, so I decided to start using it too.",
             tools: "Svelte, Javascript, TailwindCSS, HTML/CSS",
         },
     ]
 </script>
 
 <div class="flex flex-col gap-y-4 pr-10 ml-20 mt-10 mb-8 lg:pr-10 lg:pl-4 sm:max-w-[52rem] xl:max-w-5xl">
-    <h1 class="text-5xl text-center font-semibold sm:text-6xl lg:text-7xl mb-6">Projects</h1>
+    <div class="text-center">
+        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-1">Projects</h1>
+    </div>
 
     <!-- Projects List! -->
-    <div class="grid grid-cols-1 gap-y-6 lg:gap-x-6">
+    <div class="grid grid-cols-1 divide-y-3 divide-dashed">
         {#each projectList as project}
         <!-- project item -->
-        <div class="border-3 border-dashed rounded-[1rem]">
+         <!-- border-3 border-dashed rounded-[1rem] -->
+        <div class="">
             <!-- structures image and text as a column -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-8 my-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
                 <!-- image of project that links to website -->
                 <a class="" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 duration-500 ease-in-out rounded-[1rem]" src="{project.picture}" alt="Project Preview">
+                    <img class="grayscale hover:grayscale-0 duration-500 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
@@ -60,7 +63,7 @@
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class="text-sm">
+                    <div class="text-xs sm:text-sm xl:text-base">
                         <p class="mb-2">✱ {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p><span class="font-semibold text-base">Built with:</span> {project.tools}</p> 
