@@ -229,10 +229,10 @@
             </div>
             <div class="duration-300 text-sm md:text-base">
                 <ul class="pl-2 list-disc pl-5">
-                    <li>playing and developing video games (favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
-                    <li>watching video essays, comedy commentary, and tech videos</li>
-                    <li>acting and improv</li>
-                    <li>and building pretty things like this website!</li>
+                    <li>playing games but most recently video games (my favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
+                    <li>watching video essays, comedy-styled commentary, and tech videos</li>
+                    <li>performing (i.e. singing, acting, improv, etc.)</li>
+                    <li>building pretty things like this website! ᵔᵕᵔ</li>
                 </ul>
             </div>
         </div>
