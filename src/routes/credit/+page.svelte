@@ -6,7 +6,7 @@
 <div class="flex flex-col text-center sm:max-w-[52rem] xl:max-w-5xl">
     <!-- credits text -->
      <div class="flex flex-row items-center mx-auto mb-4">
-        <h1 class="duration-300 text-5xl md:text-6xl font-semibold"><span class="text-sky-400">✱</span> Credits <span class="text-sky-400">✱</span></h1>
+        <h1 class="duration-300 text-4xl md:text-5xl font-semibold"><span class="text-sky-400">✱</span> Credits <span class="text-sky-400">✱</span></h1>
      </div>
     <div class="grid grid-cols-1">
         <div class="m-3">
