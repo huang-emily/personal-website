@@ -4,7 +4,7 @@
 </script>
 
 <!-- lg:flex-row items-center gap-x-6 gap-y-4 -->
-<div class="text-center flex flex-col lg:flex-row lg:items-center lg:gap-x-4">
+<div class="duration-300 text-center flex flex-col lg:flex-row lg:items-center lg:gap-x-4">
     <!-- svg code for the open peeps character -->
     <svg
     height="300"

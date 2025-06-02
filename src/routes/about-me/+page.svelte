@@ -61,8 +61,8 @@
         <!-- title information -->
         <div class="ml-2 flex flex-col place-self-center">
             <!-- MY NAME -->
-            <h1 class=" text-4xl md:text-5xl mb-1 font-semibold"><span class="underline decoration-4 decoration-sky-400">Emily Huang</span></h1>
-            <ul class="text-sm md:text-base">
+            <h1 class="duration-300 text-4xl md:text-5xl mb-1 font-semibold"><span class="underline decoration-4 decoration-sky-400">Emily Huang</span></h1>
+            <ul class="duration-300 text-sm md:text-base">
                 <li>Trends Data Research Manager (Contract) @ Google</li>
                 <li>Former Product Manager 2 @ Microsoft</li>
             </ul>
@@ -118,17 +118,17 @@
                     <path d="M14.8252 2.18595C16.5021 1.70882 18.2333 2.16305 19.4417 3.39724" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round"/>
                     <path d="M4.0106 8.36655L3.63846 7.71539L4.0106 8.36655ZM6.50218 8.86743L7.15007 8.48962L6.50218 8.86743ZM3.2028 10.7531L2.55491 11.1309H2.55491L3.2028 10.7531ZM7.69685 3.37253L8.34474 2.99472V2.99472L7.69685 3.37253ZM8.53873 4.81624L7.89085 5.19405L8.53873 4.81624ZM10.4165 9.52517C10.6252 9.88299 11.0844 10.0039 11.4422 9.79524C11.8 9.58659 11.9209 9.12736 11.7123 8.76955L10.4165 9.52517ZM7.53806 12.1327C7.74672 12.4905 8.20594 12.6114 8.56376 12.4027C8.92158 12.1941 9.0425 11.7349 8.83384 11.377L7.53806 12.1327ZM4.39747 5.25817L3.74958 5.63598L4.39747 5.25817ZM11.8381 2.9306L12.486 2.55279V2.55279L11.8381 2.9306ZM14.3638 7.26172L15.0117 6.88391L14.3638 7.26172ZM16.0475 10.1491L16.4197 10.8003C16.5934 10.701 16.7202 10.5365 16.772 10.3433C16.8238 10.15 16.7962 9.94413 16.6954 9.77132L16.0475 10.1491ZM17.0153 5.75389C17.2239 6.11171 17.6831 6.23263 18.041 6.02397C18.3988 5.81531 18.5197 5.35609 18.311 4.99827L17.0153 5.75389ZM20.1888 9.7072L20.8367 9.32939V9.32939L20.1888 9.7072ZM6.99128 17.2497L7.63917 16.8719L6.99128 17.2497ZM16.9576 19.2533L16.5854 18.6021L16.9576 19.2533ZM13.784 15.3C13.9927 15.6578 14.4519 15.7787 14.8097 15.5701C15.1676 15.3614 15.2885 14.9022 15.0798 14.5444L13.784 15.3ZM20.347 8.48962C20.1383 8.1318 19.6791 8.01089 19.3213 8.21954C18.9635 8.4282 18.8426 8.88742 19.0512 9.24524L20.347 8.48962ZM8.98692 20.1803C9.35042 20.3789 9.80609 20.2452 10.0047 19.8817C10.2033 19.5182 10.0697 19.0626 9.70616 18.864L8.98692 20.1803ZM13.8888 19.5453C13.4792 19.6067 13.1969 19.9886 13.2583 20.3982C13.3197 20.8079 13.7015 21.0902 14.1112 21.0288L13.8888 19.5453ZM4.38275 9.0177C5.01642 8.65555 5.64023 8.87817 5.85429 9.24524L7.15007 8.48962C6.4342 7.26202 4.82698 7.03613 3.63846 7.71539L4.38275 9.0177ZM3.63846 7.71539C2.44761 8.39597 1.83532 9.8969 2.55491 11.1309L3.85068 10.3753C3.64035 10.0146 3.75139 9.37853 4.38275 9.0177L3.63846 7.71539ZM7.04896 3.75034L7.89085 5.19405L9.18662 4.43843L8.34474 2.99472L7.04896 3.75034ZM7.89085 5.19405L10.4165 9.52517L11.7123 8.76955L9.18662 4.43843L7.89085 5.19405ZM8.83384 11.377L7.15007 8.48962L5.85429 9.24524L7.53806 12.1327L8.83384 11.377ZM7.15007 8.48962L5.04535 4.88036L3.74958 5.63598L5.85429 9.24524L7.15007 8.48962ZM5.57742 3.5228C6.21109 3.16065 6.8349 3.38327 7.04896 3.75034L8.34474 2.99472C7.62887 1.76712 6.02165 1.54123 4.83313 2.22048L5.57742 3.5228ZM4.83313 2.22048C3.64228 2.90107 3.02999 4.40199 3.74958 5.63598L5.04535 4.88036C4.83502 4.51967 4.94606 3.88363 5.57742 3.5228L4.83313 2.22048ZM11.1902 3.30841L13.7159 7.63953L15.0117 6.88391L12.486 2.55279L11.1902 3.30841ZM13.7159 7.63953L15.3997 10.5269L16.6954 9.77132L15.0117 6.88391L13.7159 7.63953ZM9.71869 3.08087C10.3524 2.71872 10.9762 2.94134 11.1902 3.30841L12.486 2.55279C11.7701 1.32519 10.1629 1.0993 8.9744 1.77855L9.71869 3.08087ZM8.9744 1.77855C7.78355 2.45914 7.17126 3.96006 7.89085 5.19405L9.18662 4.43843C8.97629 4.07774 9.08733 3.4417 9.71869 3.08087L8.9744 1.77855ZM15.5437 5.52635C16.1774 5.1642 16.8012 5.38682 17.0153 5.75389L18.311 4.99827C17.5952 3.77068 15.988 3.54478 14.7994 4.22404L15.5437 5.52635ZM14.7994 4.22404C13.6086 4.90462 12.9963 6.40555 13.7159 7.63953L15.0117 6.88391C14.8013 6.52322 14.9124 5.88718 15.5437 5.52635L14.7994 4.22404ZM2.55491 11.1309L6.34339 17.6276L7.63917 16.8719L3.85068 10.3753L2.55491 11.1309ZM19.5409 10.085C21.1461 12.8377 19.9501 16.6792 16.5854 18.6021L17.3297 19.9045C21.2539 17.6618 22.9512 12.9554 20.8367 9.32939L19.5409 10.085ZM15.0798 14.5444C14.4045 13.3863 14.8772 11.6818 16.4197 10.8003L15.6754 9.49797C13.5735 10.6993 12.5995 13.2687 13.784 15.3L15.0798 14.5444ZM19.0512 9.24524L19.5409 10.085L20.8367 9.32939L20.347 8.48962L19.0512 9.24524ZM9.70616 18.864C8.85353 18.3981 8.13826 17.7278 7.63917 16.8719L6.34339 17.6276C6.98843 18.7337 7.90969 19.5917 8.98692 20.1803L9.70616 18.864ZM16.5854 18.6021C15.7158 19.0991 14.7983 19.409 13.8888 19.5453L14.1112 21.0288C15.2038 20.865 16.2984 20.4939 17.3297 19.9045L16.5854 18.6021Z" fill="{getStrokeColor()}"/>
                 </svg>
-                <h1 class="text-2xl md:text-3xl font-medium">Hiya again!</h1>
+                <h1 class="duration-300 text-2xl md:text-3xl font-medium">Nice to meet you!</h1>
             </div>
 
-            <p class="text-sm md:text-base">I'm Emily, and I'm Data Analytics professional with <span class="font-semibold underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span>.</p>
+            <p class="duration-300 text-sm md:text-base">I'm a <span class="font-semibold underline decoration-2 decoration-sky-400">Data Analytics professional</span> with <span class="font-semibold underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span> and based in <span class="font-semibold underline decoration-2 decoration-sky-400">Irvine, California</span>.</p>
             
-            <div class="mt-2 text-sm md:text-base">
-                <p>A little bit about me:</p>
+            <div class="duration-300 mt-2 text-sm md:text-base">
+                <p>A bit more about me:</p>
                 <div class="list-disc pl-5">
                     <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
                     <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
-                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in the creator industry like social media or gaming</span>!</li>
+                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in the creator space like social media or gaming</span>!</li>
                 </div>
             </div>
         </div>
@@ -147,21 +147,21 @@
                     <path class="st0" d="M25,31H4.5C2.6,31,1,29.4,1,27.5v0C1,25.6,2.6,24,4.5,24H25" stroke="{getStrokeColor()}" stroke-width="2"/>
                     <path class="st0" d="M24,24L24,24c-1.3,2.2-1.3,4.8,0,7l0,0" stroke="{getStrokeColor()}" stroke-width="2"/>
                     </svg>
-                <h1 class="text-2xl md:text-3xl font-semibold">Education</h1>
+                <h1 class="duration-300 text-2xl md:text-3xl font-semibold">Education</h1>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+            <div class="duration-300 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                 <div>
-                    <h1 class="text-md md:text-lg">University of California, Berkeley</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 mb-4 text-sm md:text-base">
+                    <h1 class="duration-300 text-md md:text-lg mb-1">University of California, Berkeley</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 mb-4 text-sm md:text-base">
                         <p>Master in Information and Data Science</p>
                         <p>2021 - 2023</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-md md:text-lg">University of California, Riverside</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 mb-2 text-sm md:text-base">
+                    <h1 class="duration-300 text-md md:text-lg mb-1">University of California, Riverside</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 mb-2 text-sm md:text-base">
                         <p>Bachelor of Science in Computer Science</p>
                         <p>2015 - 2019</p>
                     </div>
@@ -183,35 +183,35 @@
                     <path d="M29.4148,21.6664,23.08,15.3305l6.3337-6.334a2,2,0,0,0,.0017-2.8281l-.0017-.002-3.58-3.58a2,2,0,0,0-2.8284-.0015l-.0017.0015L16.67,8.9194,10.3352,2.5839a2.0037,2.0037,0,0,0-2.8281.0005L2.5854,7.5063a2.0011,2.0011,0,0,0,0,2.8286l6.3338,6.3345L2,23.5883V30H8.4106l6.919-6.9194,6.3354,6.3364a2.0076,2.0076,0,0,0,2.8291,0l4.9207-4.9223A2.0011,2.0011,0,0,0,29.4148,21.6664Zm-5.0015-17.67,3.59,3.59L21.67,13.92l-3.59-3.59ZM8,28H4V24.4086L10.3291,18.08l3.677,3.6778Zm15.08.0035L4,8.9213,8.9219,4,12.71,7.7875,10.458,10.04l1.4153,1.4141,2.2507-2.252,4.1294,4.1294L16,15.5834l1.416,1.4141,2.2517-2.252,4.13,4.13-2.2517,2.251,1.4141,1.415L25.2117,20.29l2.7907,2.791Z" transform="translate(0 0)"/>
                     <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
                 </svg>
-                <h1 class="text-2xl md:text-3xl font-semibold">Skills</h1>
+                <h1 class="duration-300 text-2xl md:text-3xl font-semibold">Skills</h1>
             </div>
 
             <!-- display skills -->
             <div class="grid grid-cols-1 gap-y-2">
                 <div>
-                    <h1 class="text-md md:text-lg">Data Analytics</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
+                    <h1 class="duration-300 text-md md:text-lg">Data Analytics</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Power BI, Python (Matplotlib, Numpy, Pandas, Seaborn, Streamlit), SQL, SQL Server Management Studio</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-lg">Product Management</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
+                    <h1 class="duration-300 text-lg md:text-lg">Product Management</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-lg">Web Development</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
+                    <h1 class="duration-300 text-lg md:text-lg">Web Development</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Python Flask, Javascript, Svelte, HTML/CSS, TailwindCSS, Bootstrap, Git</p>
                     </div>
                 </div>
 
                 <div>
-                    <h1 class="text-lg md:text-lg">Other</h1>
-                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
+                    <h1 class="duration-300 text-lg md:text-lg">Other</h1>
+                    <div class="duration-300 border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Creativity, Adaptability, Reliability, Critical Thinking, Resourcefulness, Empathy</p>
                     </div>
                 </div>
@@ -225,9 +225,9 @@
                     <path d="M5.36655 10.2421C4.28985 8.4221 3.75151 7.51211 4.11106 6.78804C4.4706 6.06397 5.48992 6.00535 7.52857 5.88812L8.05599 5.85779C8.63531 5.82448 8.92497 5.80782 9.17756 5.67305C9.43014 5.53828 9.61705 5.30066 9.99088 4.82542L10.3312 4.39274C11.6467 2.72034 12.3045 1.88413 13.0606 2.01293C13.8167 2.14173 14.1705 3.15023 14.8779 5.16723M5.80455 13.5087C5.25206 15.5982 4.97582 16.6429 5.50972 17.2192C6.04363 17.7955 7.0341 17.5217 9.01504 16.9741L9.99088 16.5M17.048 7.50967C18.9378 8.29605 19.8826 8.68925 19.9904 9.49292C20.0823 10.1786 19.513 10.7756 18.3493 11.7831" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round"/>
                     <path d="M16.2387 19.57C17.7244 19.9565 18.4673 20.1498 18.8677 19.743C19.2681 19.3362 19.061 18.5987 18.6466 17.1238L18.5394 16.7422C18.4216 16.3231 18.3628 16.1135 18.3924 15.9057C18.422 15.6979 18.5367 15.5154 18.7662 15.1503L18.9751 14.818C19.7826 13.5332 20.1864 12.8909 19.9167 12.3798C19.647 11.8687 18.8826 11.8273 17.3536 11.7446L16.958 11.7231C16.5235 11.6996 16.3063 11.6879 16.1168 11.5927C15.9274 11.4976 15.7872 11.3299 15.5068 10.9944L15.2516 10.689C14.265 9.50847 13.7716 8.91821 13.2045 9.00913C12.6375 9.10004 12.3722 9.81193 11.8416 11.2357L11.7043 11.604C11.5535 12.0086 11.4781 12.2109 11.3314 12.3599C11.1848 12.509 10.9834 12.5878 10.5806 12.7456L10.214 12.8892C8.79667 13.4443 8.08803 13.7218 8.00721 14.2891C7.92639 14.8564 8.52692 15.3378 9.72797 16.3004L10.0387 16.5495C10.38 16.8231 10.5507 16.9599 10.6494 17.1471C10.7482 17.3343 10.7639 17.5508 10.7954 17.9837L10.824 18.3779C10.9347 19.9015 10.9901 20.6633 11.5072 20.923C12.0244 21.1827 12.6608 20.7683 13.9337 19.9395" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round"/>
                 </svg>
-                <h1 class="text-2xl md:text-3xl font-semibold">Interests</h1>
+                <h1 class="duration-300 text-2xl md:text-3xl font-semibold">Interests</h1>
             </div>
-            <div class="text-sm md:text-base">
+            <div class="duration-300 text-sm md:text-base">
                 <ul class="pl-2 list-disc pl-5">
                     <li>playing and developing video games (favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
                     <li>watching video essays, comedy commentary, and tech videos</li>

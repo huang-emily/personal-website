@@ -35,8 +35,8 @@
 <div class="flex flex-col gap-y-4 mt-10 mb-8 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
     <div class="text-center -mb-6">
-        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-        <p class="text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
+        <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <p class="duration-300 text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->
@@ -55,7 +55,7 @@
                 <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
                     <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="text-xl md:text-2xl font-semibold underline decoration-2 decoration-sky-400">{project.name}</h1>
+                        <h1 class="duration-300 text-xl md:text-2xl font-semibold underline decoration-2 decoration-sky-400">{project.name}</h1>
                         <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                             <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
@@ -65,7 +65,7 @@
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class="text-xs xl:text-sm xl:text-base">
+                    <div class="duration-300 text-xs xl:text-sm xl:text-base">
                         <p class="mb-2">✱ {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p class=""><span class="text-base font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
