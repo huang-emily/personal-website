@@ -21,8 +21,9 @@
         <div class="m-3">
             <h1 class="text-4xl sm:text-5xl mb-1 underline decoration-3 decoration-sky-400">Inspiration</h1>
             <ul class="text-sm sm:text-md">
-                <li>Page Structure from <a class="font-extrabold duration-300 hover:text-sky-400" href="https://www.sharyap.com/" rel="noopener noreferrer" target="_blank">Sharlene Yap</a></li>
-                <li>Page Structure from <a class="font-extrabold duration-300 hover:text-sky-400" href="https://lynnandtonic.com/" rel="noopener noreferrer" target="_blank">Lynn Fisher</a></li>
+                <li>Website Structure from <a class="font-extrabold duration-300 hover:text-sky-400" href="https://jtorrdesktop.netlify.app/" rel="noopener noreferrer" target="_blank">Joshua Torres</a></li>
+                <li>Website Structure from <a class="font-extrabold duration-300 hover:text-sky-400" href="https://www.sharyap.com/" rel="noopener noreferrer" target="_blank">Sharlene Yap</a></li>
+                <li>Website Structure from <a class="font-extrabold duration-300 hover:text-sky-400" href="https://lynnandtonic.com/" rel="noopener noreferrer" target="_blank">Lynn Fisher</a></li>
             </ul>
         </div>
     </div>
