@@ -3,9 +3,9 @@
     import { getLinkSize, getIconSize, getSunIconSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
     
     $effect(() => {
-        var encEmail = "ZWh1YW4wMTVAZ21haWwuY29t";
-        const form = document.getElementById("");
-        form?.setAttribute("href", "mailto:".concat(atob(encEmail)));
+        const encEmail = "ZWh1YW4wMTVAZ21haWwuY29t";
+        const email = document.getElementById("contact");
+        email?.setAttribute("href", "mailto:".concat(atob(encEmail)));
     })
 </script>
 

@@ -8,7 +8,7 @@ const palette = {
 };
 
 let isDarkMode = $state(false);
-let strokeColor = $derived(isDarkMode? palette.sky : palette.black );
+let strokeColor = $derived(isDarkMode? palette.white : palette.black );
 let menuStrokeColor = $derived(isDarkMode? palette.white : palette.black );
 let menuItemColor = $derived(isDarkMode? palette.white : palette.black );
 let websiteBgColor = $derived(isDarkMode? palette.black : palette.white );

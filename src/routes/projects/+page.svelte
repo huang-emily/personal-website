@@ -25,26 +25,32 @@
             picture: "/personalwebsite-snapshot.png",
             url: "https://www.emilyhuang.io/",
             github: "https://github.com/huang-emily/personal-website",
-            description: "my personal website that has everything related to my skills and qualifications ᵔᵕᵔ",
+            description: "my personal website that has all the details on my skills and qualifications ᵔᵕᵔ",
             blurb: "My first attempt building with Svelte! I was inspired to learn it when talking to an interviewer about a website called Pudding that has amazing data visualizations. I saw a lot of the Pudding team members used Svelte, so I decided to start using it too.",
             tools: "Svelte, Javascript, TailwindCSS, HTML/CSS",
         },
     ]
+
+    $effect(() => {
+        const encEmail = "ZWh1YW4wMTVAZ21haWwuY29t";
+        const email = document.getElementById("contact");
+        email?.setAttribute("href", "mailto:".concat(atob(encEmail)));
+    })
 </script>
 
-<div class="flex flex-col gap-y-4 mt-10 mb-8 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
+<div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
-    <div class="text-center -mb-6">
+    <div class="text-center -mb-4">
         <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
         <p class="duration-300 text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->
-    <div class="grid grid-cols-1 divide-y-3 divide-dashed">
+    <div class="grid grid-cols-1 mb-2">
         {#each projectList as project}
         <!-- project item -->
          <!-- border-3 border-dashed rounded-[1rem] -->
-        <div class="">
+        <div class="border-3 border-dashed rounded-[1rem] mt-6">
             <!-- structures image and text as a column -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
                 <!-- image of project that links to website -->
@@ -55,7 +61,7 @@
                 <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
                     <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="duration-300 text-xl md:text-2xl font-semibold underline decoration-2 decoration-sky-400">{project.name}</h1>
+                        <h1 class="duration-300 text-xl md:text-2xl font-semibold">{project.name}</h1>
                         <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                             <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
@@ -66,15 +72,18 @@
                     </div>
                     <!-- project description and tools used -->
                     <div class="duration-300 text-xs xl:text-sm xl:text-base">
-                        <p class="mb-2">✱ {project.description}</p>
+                        <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
-                        <p class=""><span class="text-base font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
+                        <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 
                     </div>
                 </div>
             </div>
         </div>
         {/each}
     </div>
+    <a class="mx-auto w-fit text-center duration-300 text-sm sm:text-md md:text-lg lg:text-xl" id="contact">
+        <p class="duration-300 hover:scale-110 underline decoration-2 decoration-sky-400 font-semibold">Want to work with me? Shoot me an email!</p>
+    </a>
 
 </div>
 
