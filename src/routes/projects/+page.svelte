@@ -4,7 +4,7 @@
     const projectList = [
         {
             name: "Gun Trends in the US",
-            picture: "/gunviolence-snapshot.png",
+            picture: "/gunviolence-snapshot.webp",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/gun-violence-trends",
             description: "web application that visualizes gun violence trends in the USA from 2014 - 2023",
@@ -13,7 +13,7 @@
         },
         {
             name: "Keep Me SaFe",
-            picture: "/keepmesafe-snapshot.png",
+            picture: "/keepmesafe-snapshot.webp",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/keep-me-SaFe",
             description: "web application that predicts potential accident hotspots in San Francisco based on a given walking route",
@@ -22,7 +22,7 @@
         },
         {
             name: "This Website!",
-            picture: "/personalwebsite-snapshot.png",
+            picture: "/personalwebsite-snapshot.webp",
             url: "https://www.emilyhuang.io/",
             github: "https://github.com/huang-emily/personal-website",
             description: "my personal website that has all the details on my skills and qualifications ᵔᵕᵔ",
