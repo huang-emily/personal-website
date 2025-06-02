@@ -7,8 +7,10 @@ let menuStrokeColor = $derived(isDarkMode? colors.white : colors.black );
 let menuItemColor = $derived(isDarkMode? colors.white: colors.black);
 let websiteBgColor = $derived(isDarkMode? colors.black : colors.white);
 
-let iconSize = "2rem";
-let sunIconSize = "2.25rem";
+let iconSize = "2.50rem";
+let linkSize = "2.00rem";
+let navItemSize = "2.25rem";
+let sunIconSize = "2.75rem";
 
 export function toggleDarkMode() {
     isDarkMode = !isDarkMode;
@@ -40,4 +42,12 @@ export function getIconSize() {
 
 export function getSunIconSize() {
     return sunIconSize;
+}
+
+export function getLinkSize() {
+    return linkSize;
+}
+
+export function getNavBarSize() {
+    return navItemSize;
 }
