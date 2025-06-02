@@ -52,9 +52,7 @@
         style="fill-rule:evenodd;stroke:none;stroke-width:1" /></svg>
 
     <div>
-        <div class="flex flex-col sm:flex-row">
-            <h1 class="text-7xl/20 font-light">hi, i'm <span class="font-semibold underline deocration-6 decoration-sky-400"> emily</span>!</h1>
-        </div>
+        <h1 class="text-7xl/20 font-light">hi, i'm <span class="font-semibold underline deocration-6 decoration-sky-400"> emily</span>!</h1>
         <div class="flex flex-col sm:flex-row">
             <p class="text-lg">product manager +&nbsp;</p>
             <p class="text-lg">data analyst +&nbsp;</p>

@@ -128,7 +128,7 @@
                 <div class="list-disc pl-5">
                     <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
                     <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
-                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in working in a creative industry like social media or gaming</span>!</li>
+                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in the creator industry like social media or gaming</span>!</li>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
                 <div>
                     <h1 class="text-md md:text-lg">University of California, Berkeley</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 mb-4 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 mb-4 text-sm md:text-base">
                         <p>Master in Information and Data Science</p>
                         <p>2021 - 2023</p>
                     </div>
@@ -161,7 +161,7 @@
 
                 <div>
                     <h1 class="text-md md:text-lg">University of California, Riverside</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 mb-2 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 mb-2 text-sm md:text-base">
                         <p>Bachelor of Science in Computer Science</p>
                         <p>2015 - 2019</p>
                     </div>
@@ -190,28 +190,28 @@
             <div class="grid grid-cols-1 gap-y-2">
                 <div>
                     <h1 class="text-md md:text-lg">Data Analytics</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Power BI, Python (Matplotlib, Numpy, Pandas, Seaborn, Streamlit), SQL, SQL Server Management Studio</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Product Management</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Web Development</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Python Flask, Javascript, Svelte, HTML/CSS, TailwindCSS, Bootstrap, Git</p>
                     </div>
                 </div>
 
                 <div>
                     <h1 class="text-lg md:text-lg">Other</h1>
-                    <div class="border-l-3 border-sky-400 pl-5 text-sm md:text-base">
+                    <div class="border-l-3 border-sky-400 pl-3 text-sm md:text-base">
                         <p>Creativity, Adaptability, Reliability, Critical Thinking, Resourcefulness, Empathy</p>
                     </div>
                 </div>
