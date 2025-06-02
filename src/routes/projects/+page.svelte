@@ -4,7 +4,7 @@
     const projectList = [
         {
             name: "Gun Trends in the US",
-            picture: "/mass-shootings-snapshot.png",
+            picture: "/gunviolence-snapshot.png",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/gun-violence-trends",
             description: "web application that visualizes gun violence trends in the USA from 2014 - 2023",

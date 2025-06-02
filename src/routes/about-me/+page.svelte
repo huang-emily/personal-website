@@ -1,6 +1,12 @@
 <script lang="ts">
     import "../../app.css";
     import { getLinkSize, getIconSize, getSunIconSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
+    
+    $effect(() => {
+        var encEmail = "ZWh1YW4wMTVAZ21haWwuY29t";
+        const form = document.getElementById("");
+        form?.setAttribute("href", "mailto:".concat(atob(encEmail)));
+    })
 </script>
 
 <div class="flex flex-col gap-y-4 mb-8 mt-10 max-w-xl lg:mt-20 md:max-w-7xl">
@@ -80,6 +86,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="{getStrokeColor()}"/>
                     </svg>
                 </a>
+
                 <!-- github -->
                 <a class="duration-300 hover:scale-125" href="https://github.com/huang-emily" rel="noopener noreferrer" target="_blank">
                     <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -88,20 +95,45 @@
                         <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z" fill="{getStrokeColor()}"/>
                     </svg>
                 </a>
+
                 <!-- resume -->
                 <!-- svelte-ignore a11y_consider_explicit_label -->
                 <a class="duration-300 hover:scale-125" href="https://drive.google.com/file/d/1Ld2zjBUhH9h_zC_0wBfQHBtL_npukaUx/view?usp=sharing" rel="noopener noreferrer" target="_blank">
-                    <svg width="{getLinkSize()}" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                        viewBox="0 0 512 512"  xml:space="preserve">
-                        <title>Resume Link</title>
-                        <path class="st0" d="M276.239,252.183c-6.37,2.127-13.165,3.308-20.239,3.308c-7.074,0-13.87-1.181-20.24-3.308
-                            c-46.272,7.599-70.489,41.608-70.489,82.877H256h90.728C346.728,293.791,322.515,259.782,276.239,252.183z" fill="{getStrokeColor()}"/>
-                        <path class="st0" d="M256,240.788c27.43,0,49.658-22.24,49.658-49.666v-14.087c0-27.426-22.228-49.659-49.658-49.659
-                            c-27.43,0-49.658,22.233-49.658,49.659v14.087C206.342,218.548,228.57,240.788,256,240.788z" fill="{getStrokeColor()}"/>
-                        <path class="st0" d="M378.4,0H133.582C86.234,0,47.7,38.542,47.7,85.899v340.22C47.7,473.476,86.234,512,133.582,512h205.695
-                            h13.175l9.318-9.301l93.229-93.229l9.301-9.31v-13.174V85.899C464.3,38.542,425.766,0,378.4,0z M432.497,386.985H384.35
-                            c-24.882,0-45.074,20.183-45.074,45.073v48.139H133.582c-29.866,0-54.078-24.221-54.078-54.078V85.899
-                            c0-29.874,24.212-54.096,54.078-54.096H378.4c29.876,0,54.096,24.222,54.096,54.096V386.985z" fill="{getStrokeColor()}"/>
+                    <svg
+                    fill="{getStrokeColor()}"
+                    width="{getLinkSize()}"
+                    version="1.1"
+                    id="Layer_1"
+                    viewBox="0 0 300 315"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg">
+                        <defs id="defs10" />
+                        <g id="g6" transform="translate(-47.838)">
+                            <g id="g5">
+                                <path d="m 196.137,45.834 c -25.859,0 -46.998,21.075 -46.998,46.998 0,25.859 21.139,46.933 46.998,46.933 25.859,0 46.998,-21.075 46.998,-46.998 0,-25.923 -21.139,-46.933 -46.998,-46.933 z m 0,72.017 c -13.77,0 -25.083,-11.313 -25.083,-25.083 0,-13.77 11.248,-25.083 25.083,-25.083 13.835,0 25.083,11.313 25.083,25.083 0,13.769 -11.313,25.083 -25.083,25.083 z" id="path4" />
+                            </g>
+                        </g>
+                        <g id="g8" transform="translate(-47.838)">
+                            <g id="g7">
+                                <path d="m 258.521,163.362 c -39.887,-15.515 -84.752,-15.515 -124.638,0 -13.059,5.107 -21.786,18.101 -21.786,32.388 v 44.347 c -0.065,6.012 4.849,10.925 10.861,10.925 h 146.424 c 6.012,0 10.925,-4.848 10.925,-10.925 V 195.75 c 0,-14.287 -8.727,-27.281 -21.786,-32.388 z m 0,65.874 H 133.883 v -33.422 c 0,-5.301 3.168,-10.214 7.887,-12.024 34.844,-13.511 74.02,-13.511 108.865,0 4.719,1.875 7.887,6.659 7.887,12.024 v 33.422 z" id="path6" />
+                            </g>
+                        </g>
+                        <g id="g10" transform="translate(-47.838)">
+                            <g id="g9">
+                                <path d="M 313.083,0 H 131.491 C 123.087,0 115.2,3.232 109.253,9.18 L 57.018,61.414 c -5.947,5.948 -9.18,13.834 -9.18,22.238 
+                                v 195 c 0,17.39 14.158,31.547 31.547,31.547 h 233.762 c 17.39,0 31.547,-14.158 31.547,-31.547 V 31.547 C 344.501,14.158 330.343,0 313.083,0 Z M 112.032,37.236 V 64.258 H 85.01 Z m 210.683,79.58 h -40.598 h 40.598 v 19.394 h -14.869 h 14.869 
+                                v 140 c 0,5.366 -4.331,9.697 -9.632,9.697 H 79.192 c -5.301,0 -9.632,-4.331 -9.632,-9.632 V 86.044 h 53.398 c 6.012,0 10.925,-4.848 10.925,-10.925 V 21.721 h 179.2 c 5.301,0 9.632,4.331 9.632,9.632 z" id="path8" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+
+                <!-- email -->
+                <!-- svelte-ignore a11y_consider_explicit_label -->
+                <a class="duration-300 hover:scale-125" id="contact" target="_blank" rel="noopener noreferrer">
+                    <svg width="{getIconSize()}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="3" y="5" width="18" height="14" rx="2" stroke="{getStrokeColor()}" stroke-width="1.5" stroke-linecap="round"/>
                     </svg>
                 </a>
             </div>

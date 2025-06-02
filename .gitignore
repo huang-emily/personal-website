@@ -23,6 +23,9 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # Audacity
-static/financial-obligations-pm-music.aup3-wal
-static/financial-obligations-pm-music.aup3-shm
-static/financial-obligations-pm-music.aup3
+/static/financial-obligations-pm-music.aup3-wal
+/static/financial-obligations-pm-music.aup3-shm
+/static/financial-obligations-pm-music.aup3
+
+# all the svg files
+/static/*.svg
