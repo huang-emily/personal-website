@@ -55,7 +55,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center m-6">
                 <!-- image of project that links to website -->
                 <a class="outline-4 outline-sky-400 rounded-[0.75rem] duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 hover:scale-105 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                    <img class="rayscale hover:grayscale-0 hover:scale-105 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
@@ -71,7 +71,7 @@
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class=" text-xs xl:text-sm xl:text-base">
+                    <div class="text-xs xl:text-sm 2xl:text-base">
                         <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 

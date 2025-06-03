@@ -5,11 +5,12 @@
 <!-- credits page -->
 <div class="flex flex-col text-center sm:max-w-[52rem] xl:max-w-5xl">
     <!-- credits text -->
-     <div class="flex flex-row items-center mx-auto mb-4">
-        <h1 class="text-4xl md:text-5xl font-semibold"><span class="text-sky-400">✱</span> Credits <span class="text-sky-400">✱</span></h1>
+     <div class="flex flex-col items-center mx-auto mb-3">
+        <h1 class="text-5xl md:text-6xl font-semibold"><span class="text-sky-400">✱</span> Credits <span class="text-sky-400">✱</span></h1>
+        <p class="text-sm max-w-lg">This website would not be possible without the following projects. Check them out and give them support!</p>
      </div>
     <div class="grid grid-cols-1">
-        <div class="m-3">
+        <div class="m-1">
             <h1 class="text-4xl md:text-5xl mb-1 underline decoration-3 decoration-sky-400">Assets</h1>
             <ul class="text-xs sm:text-sm md:text-md lg:text-lg">
                 <li>Character Art drawn by <a class="transition-colors font-extrabold duration-300 hover:text-sky-400" href="https://www.instagram.com/itsteddi_/" rel="noopener noreferrer" target="_blank">Allison Gomez</a></li>
@@ -18,7 +19,7 @@
             </ul>
         </div>
  
-        <div class="m-3">
+        <div class="m-1">
             <h1 class="text-4xl md:text-5xl mb-1 underline decoration-3 decoration-sky-400">Inspiration</h1>
             <ul class="text-xs sm:text-sm md:text-md lg:text-lg">
                 <li>Website Structure from <a class="transition-colors font-extrabold duration-300 hover:text-sky-400" href="https://jtorrdesktop.netlify.app/" rel="noopener noreferrer" target="_blank">Joshua Torres</a></li>
