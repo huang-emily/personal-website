@@ -1,5 +1,4 @@
 <script lang="ts">
-    import "../app.css";
     import { strokeColor } from "../shared.svelte";
 </script>
 

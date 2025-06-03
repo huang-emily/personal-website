@@ -1,5 +1,4 @@
 <script lang="ts">
-    import "../../app.css";
     import { linkSize, iconSize, strokeColor, websiteBgColor } from "../../shared.svelte";
     
     $effect(() => {

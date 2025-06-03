@@ -1,5 +1,4 @@
 <script lang="ts">
-    import "../../app.css";
     import { linkSize, strokeColor, websiteBgColor } from "../../shared.svelte";
     const projectList = [
         {
