@@ -17,5 +17,5 @@ export let websiteBgColor = derived(isDarkMode, (isDarkMode) => isDarkMode? pale
 
 export let iconSize = readable("2.50rem");
 export let linkSize = readable("2.00rem");
-export let navItemSize = readable("2.00rem");
+export let navItemSize = readable("2.25rem");
 export let sunIconSize = readable("2.50rem");

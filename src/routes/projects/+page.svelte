@@ -38,7 +38,7 @@
     })
 </script>
 
-<div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
+<div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 max-w-[24rem] sm:max-w-[30rem] md:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
     <div class="text-center -mb-4">
         <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
@@ -52,7 +52,7 @@
          <!-- border-3 border-dashed rounded-[1rem] -->
         <div class="border-3 border-dashed rounded-[1rem] mt-6">
             <!-- structures image and text as a column -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center mx-6 my-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center m-6">
                 <!-- image of project that links to website -->
                 <a class="outline-4 outline-sky-400 rounded-[0.75rem] duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
                     <img class="grayscale hover:grayscale-0 hover:scale-105 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">

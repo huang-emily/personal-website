@@ -28,4 +28,4 @@ vite.config.ts.timestamp-*
 /static/financial-obligations-pm-music.aup3
 
 # all the svg files
-/static/*.svg
+/static/temp/

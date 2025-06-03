@@ -17,7 +17,7 @@
 
     function toggleDarkMode() {
         isDarkMode.set(!$isDarkMode);
-        localStorage.setItem("theme", isDarkMode? "dark" : "light");
+        localStorage.setItem("theme", $isDarkMode? "dark" : "light");
     }
 
 </script>

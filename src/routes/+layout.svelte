@@ -3,7 +3,39 @@
     import "../app.css";
 	import Footer from "../components/Footer.svelte";
 	import ToolBar from "../components/ToolBar.svelte";
-    import { websiteBgColor, strokeColor } from "../shared.svelte.js";
+    import { websiteBgColor, strokeColor, isDarkMode } from "../shared.svelte.js";
+
+    $effect(() => {
+        const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        if(localStorage.getItem("theme") != null) {
+            if (localStorage.getItem("theme") == "dark") {
+                isDarkMode.set(true);
+            } else {
+                isDarkMode.set(false);
+            }
+        } else {
+            if(prefersDarkTheme) {
+                isDarkMode.set(true);
+                localStorage.setItem("theme", "dark");
+            } else {
+                isDarkMode.set(false);
+                localStorage.setItem("theme", "light");
+            }
+        }
+
+        prefersDarkTheme.addEventListener('change', (event) => {
+            if(event.matches) {
+                isDarkMode.set(true);
+                localStorage.setItem("theme", "dark");
+            } else {
+                isDarkMode.set(false);
+                localStorage.setItem("theme", "light");
+            }
+        })
+
+    })
+
 </script>
 
 <div style="background-color: {$websiteBgColor}; color: {$strokeColor};"
