@@ -7,7 +7,7 @@
     <!-- credits text -->
      <div class="flex flex-col items-center mx-auto mb-3">
         <h1 class="text-5xl md:text-6xl font-semibold"><span class="text-sky-400">✱</span> Credits <span class="text-sky-400">✱</span></h1>
-        <p class="text-sm max-w-lg">This website would not be possible without the following projects. Check them out and give them support!</p>
+        <p class="text-xs sm:text-sm max-w-lg">This website would not be possible without the following projects. Check them out and give them support!</p>
      </div>
     <div class="grid grid-cols-1">
         <div class="m-1">
