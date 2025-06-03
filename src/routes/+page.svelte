@@ -4,9 +4,9 @@
 </script>
 
 <!-- lg:flex-row items-center gap-x-6 gap-y-4 -->
-<div class="duration-300 text-center flex flex-col lg:flex-row lg:items-center lg:gap-x-4">
+<div class="text-center flex flex-col lg:flex-row lg:items-center lg:gap-x-4">
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        class="w-3xs sm:w-2xs mx-auto" viewBox="0 0 624 1024" enable-background="new 0 0 624 1024" xml:space="preserve">
+        class="w-[12rem] sm:w-2xs mx-auto" viewBox="0 0 624 1024" enable-background="new 0 0 624 1024" xml:space="preserve">
         <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
             d="
         M49.827759,426.890656 
@@ -487,12 +487,8 @@
         z"/>
     </svg>
     <div>
-        <h1 class="text-7xl/20 font-light">hi, i'm <span class="font-semibold underline deocration-6 decoration-sky-400"> emily</span>!</h1>
-        <div class="flex flex-col sm:flex-row">
-            <p class="text-lg">product manager +&nbsp;</p>
-            <p class="text-lg">data analyst +&nbsp;</p>
-            <p class="text-lg">web developer</p>
-        </div>
+        <h1 class="text-5xl/16 sm:text-7xl/20 font-light">hi, i'm <span class="font-semibold underline deocration-6 decoration-sky-400"> emily</span>!</h1>
+        <p class="text-xs text-semibold sm:text-normal sm:text-lg">product manager + data analyst + web developer</p>
     </div>
 </div>
 

@@ -41,8 +41,8 @@
 <div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 max-w-[24rem] sm:max-w-[30rem] md:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
     <div class="text-center -mb-4">
-        <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-        <p class="duration-300 text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
+        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <p class="text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->
@@ -61,8 +61,8 @@
                 <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
                     <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="duration-300 text-xl md:text-2xl font-semibold">{project.name}</h1>
-                        <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
+                        <h1 class="text-xl md:text-2xl font-semibold">{project.name}</h1>
+                        <a class="hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                             <svg width="{$linkSize}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
                                 <rect width="24" height="24" fill="{$websiteBgColor}"/>
@@ -71,7 +71,7 @@
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class="duration-300 text-xs xl:text-sm xl:text-base">
+                    <div class=" text-xs xl:text-sm xl:text-base">
                         <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 
@@ -81,8 +81,8 @@
         </div>
         {/each}
     </div>
-    <a class="mx-auto w-fit text-center duration-300 text-sm sm:text-md md:text-lg lg:text-xl" id="contact">
-        <p class="duration-300 hover:scale-110 underline decoration-2 decoration-sky-400 font-semibold">Want to work with me? Shoot me an email!</p>
+    <a class="mx-auto w-fit text-center text-sm sm:text-md md:text-lg lg:text-xl" id="contact">
+        <p class="hover:scale-110 underline decoration-2 decoration-sky-400 font-semibold">Want to work with me? Shoot me an email!</p>
     </a>
 
 </div>
