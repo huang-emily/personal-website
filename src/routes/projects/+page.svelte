@@ -20,7 +20,7 @@
             tools: "Python (Plotly, Numpy, Pandas, Flask), Javascript, HTML/CSS, Bootstrap",
         },
         {
-            name: "This Website!",
+            name: "This Wesite",
             picture: "/personalwebsite-snapshot.webp",
             url: "https://www.emilyhuang.io/",
             github: "https://github.com/huang-emily/personal-website",
@@ -39,38 +39,41 @@
 
 <div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 max-w-[24rem] sm:max-w-[30rem] md:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
-    <div class="text-center -mb-4">
-        <h1 class="text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-        <p class="text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
+    <div class="text-center -mb-6 sm:-mb-4">
+        <h1 class="text-4xl sm:text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <p class="text-[.6rem] sm:text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->
     <div class="grid grid-cols-1 mb-2">
         {#each projectList as project}
         <!-- project item -->
-         <!-- border-3 border-dashed rounded-[1rem] -->
         <div class="border-3 border-dashed rounded-[1rem] mt-6">
             <!-- structures image and text as a column -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4 items-center m-6">
                 <!-- image of project that links to website -->
                 <a class="outline-4 outline-sky-400 rounded-[0.75rem] duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                    <img class="grayscale hover:grayscale-0 hover:scale-105 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                    <img title="{project.name}'s Direct Link" class="grayscale hover:grayscale-0 hover:scale-107 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
                 </a>
                 <!-- text for project -->
                 <div class="mt-4 md:mt-0 lg:mt-0">
                     <!-- project title and github button -->
-                    <div class="flex flex-row items-center gap-x-2">
-                        <h1 class="text-xl md:text-2xl font-semibold">{project.name}</h1>
-                        <a class="hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
-                            <svg width="{$linkSize}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <div class="flex flex-row items-center gap-x-1">
+                        <h1 class="text-[.85rem] sm:text-xl md:text-2xl font-semibold">{project.name}</h1>
+                        <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
+                            <svg class="scale-60 sm:scale-100" width="{$linkSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
-                                <rect width="24" height="24" fill="{$websiteBgColor}"/>
-                                <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z" fill="{$strokeColor}"/>
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" 
+                                    stroke="{$strokeColor}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.3333 19V17.137C14.3583 16.8275 14.3154 16.5163 14.2073 16.2242C14.0993 15.9321 13.9286 15.6657 13.7067 15.4428C15.8 15.2156 18 14.4431 18 10.8989C17.9998 9.99256 17.6418 9.12101 17 8.46461C17.3039 7.67171 17.2824 6.79528 16.94 6.01739C16.94 6.01739 16.1533 5.7902 14.3333 6.97811C12.8053 6.57488 11.1947 6.57488 9.66666 6.97811C7.84666 5.7902 7.05999 6.01739 7.05999 6.01739C6.71757 6.79528 6.69609 7.67171 6.99999 8.46461C6.35341 9.12588 5.99501 10.0053 5.99999 10.9183C5.99999 14.4366 8.19999 15.2091 10.2933 15.4622C10.074 15.6829 9.90483 15.9461 9.79686 16.2347C9.68889 16.5232 9.64453 16.8306 9.66666 17.137V19" 
+                                    stroke="{$strokeColor}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.66667 17.7018C7.66667 18.3335 6 17.7018 5 15.7544" 
+                                    stroke="{$strokeColor}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </a>
                     </div>
                     <!-- project description and tools used -->
-                    <div class="text-xs xl:text-sm 2xl:text-base">
+                    <div class="text-[.6rem] sm:text-xs xl:text-sm 2xl:text-base">
                         <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
                         <p class="mb-2">{project.blurb}</p>
                         <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 
@@ -80,8 +83,8 @@
         </div>
         {/each}
     </div>
-    <a class="mx-auto w-fit text-center text-sm sm:text-md md:text-lg lg:text-xl" id="contact">
-        <p class="hover:scale-110 underline decoration-2 decoration-sky-400 font-semibold">Want to work with me? Shoot me an email!</p>
+    <a class="mx-auto w-fit text-center text-[.625rem] sm:text-sm sm:text-md md:text-lg lg:text-xl" id="contact">
+        <p class="transition-transform duration-300 hover:scale-110 underline decoration-2 decoration-sky-400 font-semibold">Want to work with me? Shoot me an email!</p>
     </a>
 
 </div>
