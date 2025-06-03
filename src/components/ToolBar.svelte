@@ -1,7 +1,6 @@
 <script lang="ts">
     import NavigationBar from "../components/NavigationBar.svelte";
     import UtilityBar from "./UtilityBar.svelte";
-    import { getWebsiteBgColor, getStrokeColor } from "../shared.svelte";
 
 	let date = new Date();
     let hour = $state(date.getHours());

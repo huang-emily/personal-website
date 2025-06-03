@@ -1,6 +1,6 @@
 <script lang="ts">
     import "../../app.css";
-    import { getLinkSize, getStrokeColor, getWebsiteBgColor } from "../../shared.svelte";
+    import { linkSize, strokeColor, websiteBgColor } from "../../shared.svelte";
     const projectList = [
         {
             name: "Gun Trends in the US",
@@ -41,7 +41,7 @@
 <div class="flex flex-col gap-y-4 mt-10 mb-6 lg:mt-20 sm:max-w-[43rem] xl:max-w-4xl">
     <!-- project header -->
     <div class="text-center -mb-4">
-        <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {getStrokeColor()};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <h1 class="duration-300 text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
         <p class="duration-300 text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
@@ -63,10 +63,10 @@
                     <div class="flex flex-row items-center gap-x-2">
                         <h1 class="duration-300 text-xl md:text-2xl font-semibold">{project.name}</h1>
                         <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
-                            <svg width="{getLinkSize()}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="{$linkSize}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <title>Github Repository Link</title>
-                                <rect width="24" height="24" fill="{getWebsiteBgColor()}"/>
-                                <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z" fill="{getStrokeColor()}"/>
+                                <rect width="24" height="24" fill="{$websiteBgColor}"/>
+                                <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z" fill="{$strokeColor}"/>
                             </svg>
                         </a>
                     </div>

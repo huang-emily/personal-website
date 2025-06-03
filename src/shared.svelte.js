@@ -1,5 +1,7 @@
 // original colors: "#fdffe0" , "#1e1e1e"
 // lightmode background color, darkmode background color, menuitem color
+import { writable, derived, readable } from "svelte/store";
+
 const palette = {
     white:"#FFFFFF", 
     black:"#121212", 
@@ -7,54 +9,13 @@ const palette = {
     sky: "#ebfaff",
 };
 
-let isDarkMode = $state(false);
-let strokeColor = $derived(isDarkMode? palette.white : palette.black );
-let menuStrokeColor = $derived(isDarkMode? palette.white : palette.black );
-let menuItemColor = $derived(isDarkMode? palette.white : palette.black );
-let websiteBgColor = $derived(isDarkMode? palette.black : palette.white );
+export let isDarkMode = writable(false);
+export let strokeColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.white : palette.black );
+export let menuStrokeColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.white : palette.black );
+export let menuItemColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.white : palette.black );
+export let websiteBgColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.black : palette.white );
 
-let iconSize = "2.50rem";
-let linkSize = "2.00rem";
-let navItemSize = "2.00rem";
-let sunIconSize = "2.50rem";
-
-export function toggleDarkMode() {
-    localStorage.theme = isDarkMode? "dark" : "light";
-    isDarkMode = !isDarkMode;
-}
-
-export function getDarkMode() {
-    return isDarkMode;
-}
-
-export function getStrokeColor() {
-    return strokeColor;
-}
-
-export function getMenuStrokeColor() {
-    return menuStrokeColor;
-}
-
-export function getMenuItemColor() {
-    return menuItemColor;
-}
-
-export function getWebsiteBgColor() {
-    return websiteBgColor;
-}
-
-export function getIconSize() {
-    return iconSize;
-}
-
-export function getSunIconSize() {
-    return sunIconSize;
-}
-
-export function getLinkSize() {
-    return linkSize;
-}
-
-export function getNavBarSize() {
-    return navItemSize;
-}
+export let iconSize = readable("2.50rem");
+export let linkSize = readable("2.00rem");
+export let navItemSize = readable("2.00rem");
+export let sunIconSize = readable("2.50rem");
