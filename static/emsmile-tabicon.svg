@@ -4,11 +4,11 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   width="843.20355"
-   viewBox="0 0 843.20355 949.22754"
+   width="1107"
+   viewBox="0 0 1107 1107"
    enable-background="new 0 0 1000 1000"
    xml:space="preserve"
-   height="949.22754"
+   height="1107"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
    id="defs15"><clipPath
@@ -106,9 +106,14 @@
 
 
 
-<g
+<circle
+   style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:7;stroke-opacity:0"
+   id="path1"
+   cx="553.5"
+   cy="553.5"
+   r="550" /><g
    id="g30"
-   transform="translate(-80.338074,-20.125905)"><path
+   transform="translate(44.661926,69.874095)"><path
      fill="#010101"
      opacity="1"
      stroke="none"

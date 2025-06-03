@@ -1,9 +1,19 @@
-<script>  
+<script lang="ts">  
     let { children } = $props();  
     import "../app.css";
 	import Footer from "../components/Footer.svelte";
 	import ToolBar from "../components/ToolBar.svelte";
     import { websiteBgColor, strokeColor, isDarkMode } from "../shared.svelte.js";
+
+    function setColorTheme(colorTheme: string) {
+        if (colorTheme == "dark") {
+            isDarkMode.set(true);
+            localStorage.setItem("theme", "dark");
+        } else if (colorTheme == "light" ) {
+            isDarkMode.set(false);
+            localStorage.setItem("theme", "light");
+        }
+    }
 
     $effect(() => {
         const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -16,21 +26,17 @@
             }
         } else {
             if(prefersDarkTheme) {
-                isDarkMode.set(true);
-                localStorage.setItem("theme", "dark");
+                setColorTheme("dark");
             } else {
-                isDarkMode.set(false);
-                localStorage.setItem("theme", "light");
+                setColorTheme("light");
             }
         }
 
         prefersDarkTheme.addEventListener('change', (event) => {
             if(event.matches) {
-                isDarkMode.set(true);
-                localStorage.setItem("theme", "dark");
+                setColorTheme("dark");
             } else {
-                isDarkMode.set(false);
-                localStorage.setItem("theme", "light");
+                setColorTheme("light");
             }
         })
 
