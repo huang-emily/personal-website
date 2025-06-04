@@ -41,7 +41,7 @@
     <!-- project header -->
     <div class="text-center -mb-6 sm:-mb-4">
         <h1 class="text-4xl sm:text-5xl font-semibold sm:text-6xl lg:text-7xl mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-        <p class="text-[.6rem] sm:text-xs sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
+        <p class="text-[.6rem] sm:text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
     </div>
 
     <!-- Projects List! -->

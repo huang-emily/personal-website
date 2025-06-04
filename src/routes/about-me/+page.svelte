@@ -3,15 +3,15 @@
     const skills = [
         {
             category: "Data Analytics",
-            list: "Power BI, Python (Matplotlib, Numpy, Pandas, Seaborn, Streamlit), SQL, SQL Server Management Studio"
+            list: "Python (Matplotlib, Numpy, Pandas, Seaborn), SQL, SQL Server Management Studio, Power BI"
         },
         {
             category: "Product Management",
-            list: "Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories"
+            list: "Scrum, Market Research, Product Roadmap, Product Requirements, Product Vision, User Stories, Customer Needs"
         },
         {
             category: "Web Development",
-            list: "Python Flask, Javascript, Svelte, HTML/CSS, TailwindCSS, Bootstrap, Git"
+            list: "Python (Flask, Streamlit), Javascript, Svelte, HTML5, CSS, TailwindCSS, Bootstrap, Git, Github, Visual Studio Code"
         },
         {
             category: "Other",
@@ -1148,14 +1148,13 @@
                 <h1 class="text-[1.35rem] sm:text-2xl md:text-3xl font-medium">Nice to meet you!</h1>
             </div>
 
-            <p class="text-xs sm:text-sm md:text-base">I'm a <span class="font-semibold underline decoration-2 decoration-sky-400">Data Analytics professional</span> with <span class="font-semibold underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span> and based in <span class="font-semibold underline decoration-2 decoration-sky-400">Irvine, California</span>.</p>
+            <p class="text-xs sm:text-sm md:text-base">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Data Analytics professional</span> with <span class="font-medium underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span> and based in <span class="font-medium underline decoration-2 decoration-sky-400">Irvine, California</span>.</p>
             
             <div class="mt-2 text-xs sm:text-sm md:text-base">
                 <p class="font-medium">A bit more about me:</p>
                 <div class="list-disc pl-5">
-                    <li>I'm looking to break into Product Analytics or Consumer Insights.</li>
-                    <li>I'm currently refreshing my knowledge in Data Science but also learning Web Development and Game Development.</li>
-                    <li>I'm <span class="underline decoration-2 decoration-sky-400">interested in the creator space like social media or gaming</span>!</li>
+                    <li>I'm looking for a role that will allow me to leverage my unique blend of skills in Product Management, Data Analytics, and Web Development.</li>
+                    <li>I'm <span class="font-semibold underline decoration-2 decoration-sky-400">interested in an industry that will make a positive impact on my community or a creative industry like social media or gaming</span>!</li>
                 </div>
             </div>
         </div>
@@ -1237,9 +1236,9 @@
             </div>
             <div class="text-xs sm:text-sm md:text-base">
                 <ul class="pl-2 list-disc pl-5">
-                    <li>playing games but most recently video games (my favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
-                    <li>watching video essays, comedy-styled commentary, and tech videos</li>
-                    <li>performing (i.e. singing, acting, improv, etc.)</li>
+                    <li>games of any kind but most recently video games (my favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
+                    <li>watching video essays, commentary-styled comedy, and tech videos</li>
+                    <li>performing arts (what I most enjoy are singing, acting, and improv)</li>
                     <li>building pretty things like this website! ᵔᵕᵔ</li>
                 </ul>
             </div>
