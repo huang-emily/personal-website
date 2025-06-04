@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { strokeColor, isDarkMode, navItemSize, sunIconSize } from "../shared.svelte.js";
+    import { strokeColor, isDarkMode, navItemSize } from "../shared.svelte.js";
 
     let isMusicOff = $state(true);
     let backgroundAudio: HTMLAudioElement;

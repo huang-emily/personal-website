@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { linkSize, strokeColor, websiteBgColor } from "../../shared.svelte";
+    import { linkSize, strokeColor } from "../../shared.svelte";
     const projectList = [
         {
             name: "Gun Trends in the US",
