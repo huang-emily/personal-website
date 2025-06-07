@@ -20,17 +20,17 @@
     const inspos = [
         {
             name: "Joshua Torres", 
-            link:"https://www.instagram.com/itsteddi_/",
+            link:"https://jtorrdesktop.netlify.app/",
             use: "Website Structure from&nbsp;"
         },
         {
             name: "Sharlene Yap", 
-            link:"https://www.instagram.com/itsteddi_/",
+            link:"https://www.sharyap.com/",
             use: "Website Structure from&nbsp;"
         },
         {
             name: "Lynn Fisher", 
-            link:"https://www.instagram.com/itsteddi_/",
+            link:"https://lynnandtonic.com/",
             use: "Website Structure from&nbsp;"
         },
     ]
@@ -50,7 +50,7 @@
             {#each assets as asset}
             <div class="mx-auto w-fit text-center flex flex-row text-[.625rem] sm:text-sm sm:text-md md:text-lg lg:text-xl">
                 <p>{@html asset.use}</p>
-                <a class="" href="{asset.link}">
+                <a class="" href="{asset.link}" rel="noopener noreferrer" target="_blank">
                     <p class="transition-transform duration-300 hover:scale-107 underline decoration-2 decoration-sky-400 font-semibold">{asset.name}</p>
                 </a>
             </div>
@@ -62,7 +62,7 @@
             {#each inspos as inspo}
             <div class="mx-auto w-fit text-center flex flex-row text-[.625rem] sm:text-sm sm:text-md md:text-lg lg:text-xl">
                 <p>{@html inspo.use}</p>
-                <a class="" href="{inspo.link}">
+                <a class="" href="{inspo.link}" rel="noopener noreferrer" target="_blank">
                     <p class="transition-transform duration-300 hover:scale-107 underline decoration-2 decoration-sky-400 font-semibold">{inspo.name}</p>
                 </a>
             </div>
