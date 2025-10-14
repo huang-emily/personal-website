@@ -3,7 +3,7 @@
     const skills = [
         {
             category: "Data Analytics",
-            list: "Python (Matplotlib, Numpy, Pandas, Seaborn), SQL, SQL Server Management Studio, Power BI"
+            list: "Python (Matplotlib, Numpy, Pandas, Seaborn), SQL, SQL Server Management Studio"
         },
         {
             category: "Product Management",
@@ -11,7 +11,7 @@
         },
         {
             category: "Web Development",
-            list: "Python (Flask, Streamlit), Javascript, Svelte, HTML5, CSS, TailwindCSS, Bootstrap, Git, Github, Visual Studio Code"
+            list: "Python (Flask, Streamlit), Javascript (Svelte), HTML5, CSS (TailwindCSS), Bootstrap, Git, Github, Visual Studio Code"
         },
         {
             category: "Other",
@@ -1148,7 +1148,7 @@
                 <h1 class="text-[1.35rem] sm:text-2xl md:text-3xl font-medium">Nice to meet you!</h1>
             </div>
 
-            <p class="text-xs sm:text-sm md:text-base">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Data Analytics professional</span> with <span class="font-medium underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span> and based in <span class="font-medium underline decoration-2 decoration-sky-400">Irvine, California</span>.</p>
+            <p class="text-xs sm:text-sm md:text-base">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Data Analytics professional</span> with <span class="font-medium underline decoration-2 decoration-sky-400">5+ years in driving product strategy</span> and based in <span class="font-medium underline decoration-2 decoration-sky-400">Chino Hills, California</span>.</p>
             
             <div class="mt-2 text-xs sm:text-sm md:text-base">
                 <p class="font-medium">A bit more about me:</p>
@@ -1209,7 +1209,7 @@
                     <path d="M29.4148,21.6664,23.08,15.3305l6.3337-6.334a2,2,0,0,0,.0017-2.8281l-.0017-.002-3.58-3.58a2,2,0,0,0-2.8284-.0015l-.0017.0015L16.67,8.9194,10.3352,2.5839a2.0037,2.0037,0,0,0-2.8281.0005L2.5854,7.5063a2.0011,2.0011,0,0,0,0,2.8286l6.3338,6.3345L2,23.5883V30H8.4106l6.919-6.9194,6.3354,6.3364a2.0076,2.0076,0,0,0,2.8291,0l4.9207-4.9223A2.0011,2.0011,0,0,0,29.4148,21.6664Zm-5.0015-17.67,3.59,3.59L21.67,13.92l-3.59-3.59ZM8,28H4V24.4086L10.3291,18.08l3.677,3.6778Zm15.08.0035L4,8.9213,8.9219,4,12.71,7.7875,10.458,10.04l1.4153,1.4141,2.2507-2.252,4.1294,4.1294L16,15.5834l1.416,1.4141,2.2517-2.252,4.13,4.13-2.2517,2.251,1.4141,1.415L25.2117,20.29l2.7907,2.791Z" transform="translate(0 0)"/>
                     <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
                 </svg>
-                <h1 class="text-2xl md:text-3xl font-semibold">Skills</h1>
+                <h1 class="text-2xl md:text-3xl font-semibold">Skills & Tools</h1>
             </div>
 
             <!-- display skills -->
@@ -1236,10 +1236,10 @@
             </div>
             <div class="text-xs sm:text-sm md:text-base">
                 <ul class="pl-2 list-disc pl-5">
-                    <li>games of any kind but most recently video games (my favorites are Cuphead, Persona 4 Golden, and Helldivers 2)</li>
+                    <li>playing video games (my favorites are Cuphead, Persona 4 Golden, and Helldivers 2) but also enjoy a good board game or card game</li>
                     <li>watching video essays, commentary-styled comedy, and tech videos</li>
-                    <li>performing arts (what I most enjoy are singing, acting, and improv)</li>
-                    <li>building pretty things like this website! ᵔᵕᵔ</li>
+                    <li>training skills in the performing arts (right now I've been learning a lot of hip hop, but I also like to sing and act)</li>
+                    <li>learning how to make pretty things like this website and origami! ᵔᵕᵔ</li>
                 </ul>
             </div>
         </div>
