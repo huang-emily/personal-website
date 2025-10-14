@@ -11,7 +11,7 @@
         },
         {
             category: "Web Development",
-            list: "Python (Flask, Streamlit), Javascript (Svelte), HTML5, CSS (TailwindCSS), Bootstrap, Git, Github, Visual Studio Code"
+            list: "Python (Flask, Streamlit), Javascript (Svelte), HTML5/CSS (TailwindCSS, Bootstrap), Git, Github, Visual Studio Code"
         },
         {
             category: "Other",
