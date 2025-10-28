@@ -1093,7 +1093,8 @@
 
                 <!-- resume -->
                 <!-- svelte-ignore a11y_consider_explicit_label -->
-                <a class="duration-300 hover:scale-125" href="https://drive.google.com/file/d/1Ld2zjBUhH9h_zC_0wBfQHBtL_npukaUx/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                <a class="duration-300 hover:scale-125" 
+                href="https://drive.google.com/file/d/1Xck-1sDcNBUvSSbMKTrg5cUCL0Quc6iH/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                     <svg
                     fill="{$strokeColor}"
                     width="{$linkSize}"
