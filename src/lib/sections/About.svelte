@@ -29,7 +29,7 @@
     })
 </script>
 
-<section id="about-me" class="pt-15 md:pt-20 lg:pt-25">
+<section id="about-me" class="pt-10 md:pt-15 lg:pt-20">
     <div class="">
         <!-- expertise header -->
         <div class="text-center">
@@ -49,8 +49,8 @@
                 <div class="pl-6 grid grid-cols-1 gap-y-2">
                     {#each tools as tool}
                     <div>
-                        <h1 class="font-medium text-sm md:text-base md:text-lg">{tool.category}</h1>
-                        <div class=" border-l-3 border-sky-400 pl-3 text-xs md:text-sm md:text-base">
+                        <h1 class="font-medium text-sm md:text-md md:text-lg">{tool.category}</h1>
+                        <div class=" border-l-3 border-sky-400 pl-3 text-xs md:text-sm md:text-md">
                             <p>{tool.list}</p>
                         </div>
                     </div>
@@ -68,8 +68,8 @@
                 <div class="pl-6 grid grid-cols-1 gap-y-2">
                     {#each skills as skill}
                     <div>
-                        <h1 class="font-medium text-sm md:text-base md:text-lg">{skill.category}</h1>
-                        <div class=" border-l-3 border-sky-400 pl-3 text-xs md:text-sm md:text-base">
+                        <h1 class="font-medium text-sm md:text-md md:text-lg">{skill.category}</h1>
+                        <div class=" border-l-3 border-sky-400 pl-3 text-xs md:text-sm md:text-md">
                             <p>{skill.list}</p>
                         </div>
                     </div>

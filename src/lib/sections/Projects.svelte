@@ -37,30 +37,30 @@
     })
 </script>
 
-<section id="projects" class="py-15 md:py-20 lg:py-25">
+<section id="projects" class="py-10 md:py-15 lg:py-20">
     <div class="">
         <!-- project header -->
         <div class="text-center">
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-            <p class="text-sm md:text-md lg:text-lg">To visit the project's website, click on the picture!</p>
+            <p class="text-xs md:text-sm lg:text-md">Click the picture to visit the project's website!</p>
         </div>
 
         <!-- Projects List! -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-2">
             {#each projectList as project}
             <!-- project item -->
-            <div class="border-3 border-dashed rounded-[1rem] mt-6">
+            <div class="border-3 border-dashed rounded-2xl mt-6">
                 <!-- structures image and text as a column -->
                 <div class="grid grid-cols-1 gap-x-4 items-center m-6">
                     <!-- image of project that links to website -->
-                    <a class="outline-4 outline-sky-400 rounded-[0.75rem] duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
-                        <img title="{project.name}'s Direct Link" class="grayscale hover:grayscale-0 hover:scale-107 duration-200 ease-in-out rounded-[0.75rem]" src="{project.picture}" alt="Project Preview">
+                    <a class="outline-4 outline-sky-400 rounded-xl duration-200 hover:scale-98" href="{project.url}" rel="noopener noreferrer" target="_blank">
+                        <img title="{project.name}'s Direct Link" class="grayscale hover:grayscale-0 hover:scale-107 duration-200 ease-in-out rounded-xl" src="{project.picture}" alt="Project Preview">
                     </a>
                     <!-- text for project -->
                     <div class="mt-4">
                         <!-- project title and github button -->
                         <div class="flex flex-row items-center gap-x-1">
-                            <h1 class="text-lg md:text-xl font-semibold">{project.name}</h1>
+                            <h1 class="text-md md:text-lg font-semibold">{project.name}</h1>
                             <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
                                 <svg class="scale-85" width="{$linkSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <title>Github Repository Link</title>

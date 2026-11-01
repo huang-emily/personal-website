@@ -48,7 +48,7 @@
     class="flex flex-col content-center">
     <ToolBar />
     <div class="flex flex-row items-center justify-center">
-        <div class="w-full max-w-sm md:max-w-xl lg:max-w-2xl">
+        <div class="w-full max-w-2xs pl-6 lg:pl-0 sm:max-w-sm md:max-w-2xl lg:max-w-2xl">
             {#if children}
                 {@render children()}
             {:else}
