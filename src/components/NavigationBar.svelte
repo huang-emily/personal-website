@@ -2,7 +2,7 @@
     import { navItemSize, strokeColor, websiteBgColor } from "#lib/shared.svelte.js";
 </script>
 
-<div class="flex flex-col lg:flex-row items-center gap-x-1 sm:gap-y-2" id="nav-bar">
+<div class="flex flex-col lg:flex-row items-center gap-x-2 sm:gap-y-2" id="nav-bar">
     <a href="/" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="home icon">
         <svg width="{$navItemSize}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="70 15 860 960" enable-background="new 0 0 1000 1000" xml:space="preserve">
