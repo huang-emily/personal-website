@@ -3,7 +3,7 @@
     import "../app.css";
 	import Footer from "../components/Footer.svelte";
 	import ToolBar from "../components/ToolBar.svelte";
-    import { websiteBgColor, strokeColor, isDarkMode } from "../shared.svelte.js";
+    import { websiteBgColor, strokeColor, isDarkMode } from "#lib/shared.svelte";
 
     function setColorTheme(colorTheme: string) {
         if (colorTheme == "dark") {
@@ -45,16 +45,16 @@
 </script>
 
 <div style="background-color: {$websiteBgColor}; color: {$strokeColor};"
-    class="min-h-screen flex flex-col content-center">
+    class="flex flex-col content-center">
     <ToolBar />
-    <div class="mx-auto my-auto flex flex-row gap-x-10 items-center justify-center">
-        <div class="ml-20 pr-10 lg:pr-10 lg:pl-4 ">
-            {@render children()}
+    <div class="flex flex-row items-center justify-center">
+        <div class="w-full max-w-sm md:max-w-xl lg:max-w-2xl">
+            {#if children}
+                {@render children()}
+            {:else}
+                <p>fallback content</p>
+            {/if}
         </div>
     </div>
     <Footer />
 </div>
-
-<style lang="postcss">
-    @reference "tailwindcss";
-</style>

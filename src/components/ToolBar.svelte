@@ -1,5 +1,5 @@
 <script lang="ts">
-    import NavigationBar from "../components/NavigationBar.svelte";
+    import NavigationBar from "./NavigationBar.svelte";
     import UtilityBar from "./UtilityBar.svelte";
 
 	let date = new Date();

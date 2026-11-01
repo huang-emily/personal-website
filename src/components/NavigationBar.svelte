@@ -1,50 +1,11 @@
 <script>
-    import { navItemSize, strokeColor, websiteBgColor } from "../shared.svelte";
+    import { navItemSize, strokeColor, websiteBgColor } from "#lib/shared.svelte.js";
 </script>
 
 <div class="flex flex-col lg:flex-row items-center gap-x-1 sm:gap-y-2" id="nav-bar">
     <a href="/" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="home icon">
-        <svg width="{$navItemSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586
-            C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586
-            L20.6897 9.39491
-            L23.1897 11.7759
-            C23.5896 12.1567 23.605 12.7897 23.2241 13.1897
-            C22.8433 13.5896 22.2103 13.605 21.8103 13.2241
-            L21 12.4524V20
-            C21 21.1046 20.1046 22 19 22
-            H14
-            H10
-            H5
-            C3.89543 22 3 21.1046 3 20
-            V12.4524
-            L2.18966 13.2241
-            C1.78972 13.605 1.15675 13.5896 0.775862 13.1897
-            C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759
-            L3.31034 9.39491
-            L11.3103 1.77586ZM5 10.5476
-            V20
-            H9
-            V15
-            V20
-            H19
-            V10.5476
-            L12 3.88095
-            L5 10.5476
-            Z
-            
-            M13 20
-            V20
-            H13
-            Z" 
-            
-            fill="{$strokeColor}"/>
-        </svg>
-    </a>
-
-    <a href="/about-me" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="about me icon">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            width="{$navItemSize}" viewBox="70 15 860 960" enable-background="new 0 0 1000 1000" xml:space="preserve">
+        <svg width="{$navItemSize}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="70 15 860 960" enable-background="new 0 0 1000 1000" xml:space="preserve">
             <path fill="{$websiteBgColor}" opacity="1.000000" stroke="none" 
                 d="
             M534.000000,1001.000000 
@@ -557,15 +518,28 @@
         </svg>
     </a>
 
-    <a href="/projects" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="projects icon">
+    <a href="#about-me" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="about me icon">
+        <svg class="hover:text-sky-400" fill="{$strokeColor}" width="{$navItemSize}" viewBox="0 0 32 32" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                .cls-1 {
+                    fill: none;
+                }
+                </style>
+            </defs>
+            <path d="M29.4148,21.6664,23.08,15.3305l6.3337-6.334a2,2,0,0,0,.0017-2.8281l-.0017-.002-3.58-3.58a2,2,0,0,0-2.8284-.0015l-.0017.0015L16.67,8.9194,10.3352,2.5839a2.0037,2.0037,0,0,0-2.8281.0005L2.5854,7.5063a2.0011,2.0011,0,0,0,0,2.8286l6.3338,6.3345L2,23.5883V30H8.4106l6.919-6.9194,6.3354,6.3364a2.0076,2.0076,0,0,0,2.8291,0l4.9207-4.9223A2.0011,2.0011,0,0,0,29.4148,21.6664Zm-5.0015-17.67,3.59,3.59L21.67,13.92l-3.59-3.59ZM8,28H4V24.4086L10.3291,18.08l3.677,3.6778Zm15.08.0035L4,8.9213,8.9219,4,12.71,7.7875,10.458,10.04l1.4153,1.4141,2.2507-2.252,4.1294,4.1294L16,15.5834l1.416,1.4141,2.2517-2.252,4.13,4.13-2.2517,2.251,1.4141,1.415L25.2117,20.29l2.7907,2.791Z" transform="translate(0 0)"/>
+            <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
+        </svg>
+    </a>
+
+    <a href="#projects" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="projects icon">
         <svg class="hover:text-sky-400" width="{$navItemSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <title>Projects Page</title>
             <path d="M10 18H14M7.20003 3H16.8C17.9201 3 18.4802 3 18.908 3.21799C19.2843 3.40973 19.5903 3.71569 19.782 4.09202C20 4.51984 20 5.0799 20 6.2V11.8C20 12.9201 20 13.4802 19.782 13.908C19.5903 14.2843 19.2843 14.5903 18.908 14.782C18.4802 15 17.9201 15 16.8 15H7.20003C6.07992 15 5.51987 15 5.09205 14.782C4.71572 14.5903 4.40976 14.2843 4.21801 13.908C4.00003 13.4802 4.00003 12.9201 4.00003 11.8V6.2C4.00003 5.0799 4.00003 4.51984 4.21801 4.09202C4.40976 3.71569 4.71572 3.40973 5.09205 3.21799C5.51987 3 6.07992 3 7.20003 3ZM4.58888 21H19.4112C20.2684 21 20.697 21 20.9551 20.8195C21.1805 20.6618 21.3311 20.4183 21.3713 20.1462C21.4173 19.8345 21.2256 19.4512 20.8423 18.6845L20.3267 17.6534C19.8451 16.6902 19.6043 16.2086 19.2451 15.8567C18.9274 15.5456 18.5445 15.309 18.1241 15.164C17.6488 15 17.1103 15 16.0335 15H7.96659C6.88972 15 6.35128 15 5.87592 15.164C5.45554 15.309 5.07266 15.5456 4.75497 15.8567C4.39573 16.2086 4.15493 16.6902 3.67334 17.6534L3.1578 18.6845C2.77444 19.4512 2.58276 19.8345 2.6288 20.1462C2.669 20.4183 2.81952 20.6618 3.04492 20.8195C3.30306 21 3.73166 21 4.58888 21Z" stroke="{$strokeColor}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
     </a>
 
-    <a href="/credit" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="credit icon">
-        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+    <!-- <a href="#credit" class="scale-75 sm:scale-100 duration-300 hover:scale-120" aria-label="credit icon">
         <svg width="{$navItemSize}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <g id="Complete">
                 <g id="info-circle">
@@ -577,7 +551,8 @@
                 </g>
             </g>
         </svg>
-    </a>
+    </a> 
+    -->
 </div>
 
 <style lang="postcss">
