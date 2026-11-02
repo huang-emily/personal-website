@@ -1,20 +1,20 @@
 <script lang="ts">
     const projectList = [
         {
-            name: "Gun Trends in America",
+            name: "Gun Violence Trends",
             picture: "/gunviolence-snapshot.webp",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/gun-violence-trends",
             description: "web application that visualizes mass shooting data in the United States of America from 2014 - 2023",
-            tools: "Python (Numpy, Pandas, Matplotlib, Seaborn, Streamlit), SQL, SQL Server Management Studio, Tableau",
+            tools: "Python (NumPy, Pandas, Matplotlib, Seaborn, Streamlit), SQL, Tableau",
         },
         {
-            name: "Keep Me SaFe",
+            name: "Pedestrian Safety",
             picture: "/keepmesafe-snapshot.webp",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/keep-me-SaFe",
             description: "web application that visualizes San Francisco's traffic collision data and predicts potential accidents on a given route",
-            tools: "Python (Plotly, Numpy, Pandas, Flask), Javascript, HTML/CSS, Bootstrap, Google Maps APIs",
+            tools: "Python (Plotly, NumPy, Pandas, Flask), Javascript, HTML/CSS, Bootstrap, Google Maps APIs",
         },
 
     ]
