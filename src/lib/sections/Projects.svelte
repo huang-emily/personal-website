@@ -37,12 +37,12 @@
     })
 </script>
 
-<section id="projects" class="py-10 md:py-15 lg:py-20">
+<section id="projects" class="py-5 md:py-10">
     <div class="">
         <!-- project header -->
         <div class="text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
-            <p class="text-xs md:text-sm lg:text-md">Click the picture to visit the project's website!</p>
+            <h1 class="text-3xl md:text-4xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+            <p class="text-[.7rem] md:text-sm lg:text-md">Click the picture to visit the project's website!</p>
         </div>
 
         <!-- Projects List! -->

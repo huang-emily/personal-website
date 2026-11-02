@@ -1,4 +1,4 @@
-<section id="home" class="pt-15 md:pt-20 lg:pt-25">
+<section id="home" class="pt-5 md:pt-10 lg:pt-15">
     <div class="flex flex-col md:flex-row md:items-center md:gap-x-4">
         <!-- character svg -->
         <svg class="w-40 mx-auto md:w-sm md:mx-0 lg:w-100"
@@ -490,7 +490,7 @@
 
                 <!-- "hi i'm emily" header -->
                 <div class="flex flex-row justify-center md:justify-start">
-                    <h1 class="whitespace-nowrap text-3xl md:text-4xl lg:text-5xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> Emily Huang</span>!</h1>
+                    <h1 class="whitespace-nowrap text-2xl md:text-3xl lg:text-4xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> Emily Huang</span>!</h1>
                 </div>
 
                 <div class="text-xs sm:text-sm md:text-md lg:text-[1rem]">
