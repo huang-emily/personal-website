@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { linkSize, strokeColor, websiteBgColor, iconSize } from "#lib/shared.svelte";
+    import { linkSize, strokeColor } from "../shared.svelte";
     const projectList = [
         {
             name: "Gun Trends in the US",
@@ -41,15 +41,15 @@
     <div class="">
         <!-- project header -->
         <div class="text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-2" style="color: {$strokeColor};"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
             <p class="text-xs md:text-sm lg:text-md">Click the picture to visit the project's website!</p>
         </div>
 
         <!-- Projects List! -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mb-2">
             {#each projectList as project}
             <!-- project item -->
-            <div class="border-3 border-dashed rounded-2xl mt-6">
+            <div class="border-2 border-dashed rounded-2xl mt-6">
                 <!-- structures image and text as a column -->
                 <div class="grid grid-cols-1 gap-x-4 items-center m-6">
                     <!-- image of project that links to website -->
@@ -60,9 +60,9 @@
                     <div class="mt-4">
                         <!-- project title and github button -->
                         <div class="flex flex-row items-center gap-x-1">
-                            <h1 class="text-md md:text-lg font-semibold">{project.name}</h1>
+                            <h1 class="text-sm md:text-md lg:text-lg font-semibold">{project.name}</h1>
                             <a class="duration-300 hover:scale-125" href="{project.github}" rel="noopener noreferrer" target="_blank">
-                                <svg class="scale-85" width="{$linkSize}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="scale-75 lg:scale-85" width={linkSize} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <title>Github Repository Link</title>
                                     <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" 
                                         stroke="{$strokeColor}" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
@@ -77,7 +77,7 @@
                         <div class="text-xs xl:text-sm 2xl:text-base">
                             <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
                             <!-- <p class="mb-2">{project.blurb}</p> -->
-                            <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 
+                            <p class=""><span class="font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
                         </div>
                     </div>
                 </div>

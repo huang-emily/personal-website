@@ -26,8 +26,3 @@
 
     <Links />
 </div>
-
-
-<style lang="postcss">
-    @reference "tailwindcss";
-</style>

@@ -1,5 +1,25 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* colors */
+:root {
+  --bg: #FFFFFF;
+  --fg: #121212;
+  color-scheme: light;
+}
+
+:root.dark {
+  --bg: #121212;
+  --fg: #FFFFFF;
+  color-scheme: dark;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
 * {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;

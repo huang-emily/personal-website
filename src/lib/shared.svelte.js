@@ -15,6 +15,6 @@ export let menuStrokeColor = derived(isDarkMode, (isDarkMode) => isDarkMode? pal
 export let menuItemColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.white : palette.black );
 export let websiteBgColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.black : palette.white );
 
-export let iconSize = readable("2.50rem");
-export let linkSize = readable("2.00rem");
-export let navItemSize = readable("2.25rem");
+export const iconSize = "2.50rem";
+export const linkSize = "2.00rem";
+export const navItemSize = "2.25rem";

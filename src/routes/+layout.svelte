@@ -1,52 +1,37 @@
-<script lang="ts">  
-    let { children } = $props();  
+<script lang="ts">
     import "../app.css";
-	import Footer from "../components/Footer.svelte";
-	import ToolBar from "../components/ToolBar.svelte";
+    import Footer from "../components/Footer.svelte";
+    import ToolBar from "../components/ToolBar.svelte";
     import UtilityBar from "../components/UtilityBar.svelte";
-    import { websiteBgColor, strokeColor, isDarkMode } from "#lib/shared.svelte";
+    import { isDarkMode } from "#lib/shared.svelte.js";
 
-    function setColorTheme(colorTheme: string) {
-        if (colorTheme == "dark") {
-            isDarkMode.set(true);
-            localStorage.setItem("theme", "dark");
-        } else if (colorTheme == "light" ) {
-            isDarkMode.set(false);
-            localStorage.setItem("theme", "light");
-        }
-    }
+    let { children } = $props();
 
     $effect(() => {
-        const prefersDarkTheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+        const saved = localStorage.getItem("theme");
 
-        if(localStorage.getItem("theme") != null) {
-            if (localStorage.getItem("theme") == "dark") {
-                isDarkMode.set(true);
-            } else {
-                isDarkMode.set(false);
-            }
+        if (saved) {
+            isDarkMode.set(saved === "dark");
         } else {
-            if(prefersDarkTheme) {
-                setColorTheme("dark");
-            } else {
-                setColorTheme("light");
-            }
+            isDarkMode.set(prefersDark.matches);
         }
 
-        prefersDarkTheme.addEventListener('change', (event) => {
-            if(event.matches) {
-                setColorTheme("dark");
-            } else {
-                setColorTheme("light");
-            }
-        })
+        function onSystemChange(event: MediaQueryListEvent) {
+            if (localStorage.getItem("theme")) return;
+            isDarkMode.set(event.matches);
+        }
 
-    })
+        prefersDark.addEventListener("change", onSystemChange);
+        return () => prefersDark.removeEventListener("change", onSystemChange);
+    });
 
+    $effect(() => {
+        document.documentElement.classList.toggle("dark", $isDarkMode);
+    });
 </script>
 
-<div style="background-color: {$websiteBgColor}; color: {$strokeColor};"
-    class="flex flex-col content-center">
+<div class="flex flex-col content-center">
     <ToolBar />
     <div class="flex flex-row items-center justify-center">
         <div class="w-full max-w-2xs pl-6 lg:pl-0 sm:max-w-sm md:max-w-xl lg:max-w-2xl">

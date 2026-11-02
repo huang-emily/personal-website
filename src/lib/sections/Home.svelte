@@ -1,14 +1,10 @@
-<script lang="ts">
-    import { strokeColor} from "#lib/shared.svelte";
-</script>
-
 <section id="home" class="pt-15 md:pt-20 lg:pt-25">
     <div class="flex flex-col md:flex-row md:items-center md:gap-x-4">
         <!-- character svg -->
         <svg class="w-40 mx-auto md:w-sm md:mx-0 lg:w-100"
             version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 624 1024" enable-background="new 0 0 624 1024" xml:space="preserve">
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M49.827759,426.890656 
                 C62.470295,398.561584 69.673218,369.463074 69.880470,338.612701 
@@ -393,7 +389,7 @@
                 C149.290680,671.375183 148.610001,671.244873 147.792160,670.813416 
                 C143.238632,679.658813 140.009811,688.892151 136.347382,698.794434 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M233.442017,223.194519 
                 C236.380707,223.985886 240.607834,222.964035 240.350372,226.977005 
@@ -403,7 +399,7 @@
                 C188.744858,233.903107 190.543243,232.190277 192.800995,231.051468 
                 C205.462143,224.665192 219.064301,223.012955 233.442017,223.194519 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M315.519409,396.098022 
                 C302.993958,397.126465 292.372162,394.064606 283.910522,384.942413 
@@ -423,7 +419,7 @@
                 C309.652283,360.110077 300.352966,360.854492 291.400482,363.471924 
                 C287.913727,364.491302 283.621368,365.593201 285.028870,371.650574 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M204.241699,333.707031 
                 C191.028610,317.767151 195.356125,294.556549 208.419586,281.069244 
@@ -431,7 +427,7 @@
                 C253.773865,288.520630 260.178925,307.202148 256.013580,321.876404 
                 C249.156967,346.031830 222.620621,352.261566 204.241699,333.707031 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M257.802917,271.233154 
                 C260.435272,273.930542 262.011841,276.862518 262.903351,280.102539 
@@ -449,7 +445,7 @@
                 C199.399490,261.677917 202.407928,261.416443 206.467941,260.087280 
                 C225.491043,253.859436 242.507935,258.012390 257.802917,271.233154 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M405.449768,328.428101 
                 C394.327393,338.629730 381.564606,341.060760 370.421967,335.306915 
@@ -459,7 +455,7 @@
                 C412.449768,287.869385 416.401459,299.960938 413.352875,313.821136 
                 C412.152405,319.278931 409.527802,324.066681 405.449768,328.428101 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M408.880707,250.675385 
                 C412.330719,247.666260 415.825500,246.097504 419.330963,249.498276 
@@ -478,7 +474,7 @@
                 C364.035828,252.455353 381.107727,247.270386 401.116638,252.486588 
                 C404.069031,253.256256 406.605530,253.867340 408.880707,250.675385 
             z"/>
-            <path fill="{$strokeColor}" opacity="1.000000" stroke="none" 
+            <path fill="currentColor" opacity="1.000000" stroke="none" 
                 d="
             M137.934479,332.452118 
                 C139.244217,333.134094 140.905258,334.114258 139.495285,334.988312 
@@ -494,17 +490,17 @@
 
                 <!-- "hi i'm emily" header -->
                 <div class="flex flex-row justify-center md:justify-start">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> emily</span>!</h1>
+                    <h1 class="whitespace-nowrap text-3xl md:text-4xl lg:text-5xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> Emily Huang</span>!</h1>
                 </div>
 
-                <div class="text-xs md:text-[0.825rem] lg:text-sm">
-                    <p class="pt-4">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Data Analyst</span> based in Chino Hills, CA and currently supporting cultural and gaming trends research at Youtube.</p>
+                <div class="text-xs sm:text-sm md:text-md lg:text-[1rem]">
+                    <p class="pt-4">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Trends Data Research Manager @ Youtube</span> supporting cultural and gaming trends research and <span class="font-medium underline decoration-2 decoration-sky-400">based in Chino Hills, CA</span>.</p>
                 
                     <p class="pt-4">A bit more about me:</p>
                     <div class="list-disc pl-5">
                         <li><span class="font-medium underline decoration-2 decoration-sky-400">5+ years in product strategy at Microsoft</span>, shaping platform decisions around user needs</li>
                         <li>Background in <span class="font-medium underline decoration-2 decoration-sky-400">Computer Science (B.S.)</span> and <span class="font-medium underline decoration-2 decoration-sky-400">Information and Data Science (M.S.)</span></li>
-                        <li>Big on watching live theater, playing video and board games, and practicing piano :)</li>
+                        <li>Enjoys playing video and board games, watching live theater, and practicing piano :)</li>
                     </div>
                 </div>
             </div>
