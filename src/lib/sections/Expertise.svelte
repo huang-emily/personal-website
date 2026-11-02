@@ -83,10 +83,10 @@
     })
 </script>
 
-<section id="expertise" class="pt-5">
+<section id="expertise" class="pt-7">
     <div class="">
         <!-- TEXT AFTER HEADER -->
-        <div class="max-w-2xl flex flex-col gap-y-4">
+        <div class="pt-2 max-w-2xl flex flex-col gap-y-4">
             <h1 class="text-center text-2xl md:text-3xl font-semibold -mb-4"><span class="underline decoration-5 decoration-sky-400">Toolkit</span></h1>
 
             <!-- Tools -->
@@ -109,7 +109,7 @@
             </div>
 
             <!-- Skills -->
-            <div class="flex flex-col">
+            <div class="pt-5 flex flex-col">
                 <h1 class="mb-1 md:mb-2 text-center text-2xl md:text-3xl font-semibold"><span class="underline decoration-5 decoration-sky-400">Strengths</span></h1>
 
                 <!-- display skills -->

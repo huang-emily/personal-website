@@ -1,6 +1,5 @@
 <script lang="ts">
     import "../app.css";
-    import Footer from "../components/Footer.svelte";
     import ToolBar from "../components/ToolBar.svelte";
     import UtilityBar from "../components/UtilityBar.svelte";
     import { isDarkMode } from "#lib/shared.svelte.js";
@@ -43,5 +42,4 @@
         </div>
     </div>
     <UtilityBar />
-    <Footer />
 </div>

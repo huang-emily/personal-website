@@ -26,7 +26,7 @@
     })
 </script>
 
-<section id="projects" class="py-5">
+<section id="projects" class="py-8">
     <!-- project header -->
     <div class="text-center">
         <h1 class="text-3xl md:text-4xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
