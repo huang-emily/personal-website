@@ -493,7 +493,7 @@
                     <h1 class="whitespace-nowrap text-2xl md:text-3xl lg:text-4xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> Emily Huang</span>!</h1>
                 </div>
 
-                <div class="text-xs sm:text-sm md:text-md lg:text-[1rem]">
+                <div class="font-light text-xs sm:text-sm md:text-md lg:text-[1rem]">
                     <p class="pt-4">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Trends Data Research Manager @ Youtube</span> supporting cultural and gaming trends research and <span class="font-medium underline decoration-2 decoration-sky-400">based in Chino Hills, CA</span>.</p>
                 
                     <p class="pt-4">A bit more about me:</p>

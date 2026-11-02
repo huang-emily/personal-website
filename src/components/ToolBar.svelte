@@ -21,7 +21,7 @@
     })
 </script>
 <!-- fixed z-10 w-full max-w-7xl px-4 pt-6 md:px-8 flex flex-row items-center justify-between -->
-<div class="fixed z-10 flex flex-col lg:flex-row pl-2 py-2 sm:py-6 h-full justify-between lg:px-4 lg:h-auto lg:w-full lg:max-w-7xl lg:self-center" id="toolbar">
+<div class="fixed z-10 flex flex-col lg:flex-row pl-2 py-3 h-full justify-between lg:px-4 lg:h-auto lg:w-full lg:max-w-7xl lg:self-center" id="toolbar">
     <NavigationBar />
 
     <Links />

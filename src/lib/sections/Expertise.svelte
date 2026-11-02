@@ -83,7 +83,7 @@
     })
 </script>
 
-<section id="expertise" class="pt-5 md:pt-10">
+<section id="expertise" class="pt-5">
     <div class="">
         <!-- TEXT AFTER HEADER -->
         <div class="max-w-2xl flex flex-col gap-y-4">
@@ -93,9 +93,9 @@
             <div class="flex flex-col gap-y-2 justify-center">
                 {#each tools as tool}
                     <div class="mt-4 border-2 border-dashed rounded-2xl p-2 pr-4 md:p-6">
-                        <h1 class="text-center text-lg md:text-xl lg:text-2xl font-semibold mb-2">{tool.category}</h1>
+                        <h1 class="text-center text-lg md:text-xl lg:text-2xl font-medium mb-2">{tool.category}</h1>
                         
-                        <div class="my-3 grid grid-cols-2 md:grid-cols-3 justify-items-center gap-x-4 gap-y-4">
+                        <div class="font-light my-3 grid grid-cols-2 md:grid-cols-3 justify-items-center gap-x-4 gap-y-4">
                             {#each tool.list as item}
                                 <div class="flex flex-row gap-x-1 items-center">
                                     <img class="w-8 {item.invertDark ? 'dark:invert' : ''}" src={item.icon} alt="{item.tool_name} icon" />
@@ -116,9 +116,9 @@
                 <div class="mx-auto pl-6 grid grid-cols-1 gap-y-2">
                     <ul class="list-none flex flex-col gap-y-2 text-md sm:text-lg md:text-xl">
                     {#each skills as s}
-                        <li class="flex gap-x-2">
-                        <span class="text-sky-400" aria-hidden="true">✦</span>
-                        <span>{s.before}<span class="">{s.key}</span>{s.after}</span>
+                        <li class="flex gap-x-2 font-light">
+                            <span class="text-sky-400" aria-hidden="true">✦</span>
+                            <span>{s.before}<span class="">{s.key}</span>{s.after}</span>
                         </li>
                     {/each}
                     </ul>
