@@ -26,10 +26,10 @@
     })
 </script>
 
-<section id="projects" class="py-8">
+<section id="projects" class="mt-5 pt-2 mb-7">
     <!-- project header -->
     <div class="text-center">
-        <h1 class="text-3xl md:text-4xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <h1 class="text-2xl md:text-3xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
         <p class="mx-auto max-w-lg font-light text-[.7rem] md:text-sm lg:text-md">To visit the project's GitHub repository, click on the picture!</p>
     </div>
 

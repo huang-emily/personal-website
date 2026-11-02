@@ -1,4 +1,4 @@
-<section id="home" class="pt-5 md:pt-10 lg:pt-15">
+<section id="home" class="mt-5 md:mt-10 lg:mt-15">
     <div class="flex flex-col md:flex-row md:items-center md:gap-x-4">
         <!-- character svg -->
         <svg class="w-40 mx-auto md:w-sm md:mx-0 lg:w-100"
