@@ -8,7 +8,7 @@
     }
 </script>
 
-<div class="fixed bottom-0 flex flex-row items-center w-full justify-end sm:pr-0.5 sm:pb-0.5">
+<div class="fixed bottom-0 flex flex-row items-center w-full justify-end pb-3 pr-1">
     <button class="hover:cursor-pointer" onclick={toggleDarkMode} aria-label="Toggle dark mode">
         {#if $isDarkMode }
             <svg class="scale-70 sm:scale-80 duration-300 hover:scale-100" width={navItemSize} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
