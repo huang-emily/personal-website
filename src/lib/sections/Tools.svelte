@@ -83,7 +83,7 @@
     })
 </script>
 
-<section id="expertise" class="mt-4 p-2">
+<section id="tools" class="mt-4 p-2">
     <!-- TEXT AFTER HEADER -->
     <div class="max-w-2xl flex flex-col gap-y-4">
         <h1 class="-mb-3 text-center text-2xl md:text-3xl font-semibold"><span class="underline decoration-5 decoration-sky-400">Toolkit</span></h1>

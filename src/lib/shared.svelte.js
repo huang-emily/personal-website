@@ -1,6 +1,6 @@
 // original colors: "#fdffe0" , "#1e1e1e"
 // lightmode background color, darkmode background color, menuitem color
-import { writable, derived, readable } from "svelte/store";
+import { writable, derived } from "svelte/store";
 
 const palette = {
     white:"#FFFFFF", 
@@ -15,6 +15,4 @@ export let menuStrokeColor = derived(isDarkMode, (isDarkMode) => isDarkMode? pal
 export let menuItemColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.white : palette.black );
 export let websiteBgColor = derived(isDarkMode, (isDarkMode) => isDarkMode? palette.black : palette.white );
 
-export const iconSize = "2.50rem";
-export const linkSize = "2.00rem";
-export const navItemSize = "2.25rem";
+export const iconSize = "2.00rem";
