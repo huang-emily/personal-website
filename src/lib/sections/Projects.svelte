@@ -5,7 +5,7 @@
             picture: "/gunviolence-snapshot.webp",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/gun-violence-trends",
-            description: "web application that visualizes mass shooting data in the United States of America from 2014 - 2023",
+            description: "Web application that visualizes mass shooting data in the United States of America from 2014-2023",
             tools: "Python (NumPy, Pandas, Matplotlib, Seaborn, Streamlit), SQL, Tableau",
         },
         {
@@ -13,8 +13,8 @@
             picture: "/keepmesafe-snapshot.webp",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/keep-me-SaFe",
-            description: "web application that visualizes San Francisco's traffic collision data and predicts potential accidents on a given route",
-            tools: "Python (Plotly, NumPy, Pandas, Flask), Javascript, HTML/CSS, Bootstrap, Google Maps APIs",
+            description: "Web application that visualizes San Francisco's traffic collision data with a route-based accident prediction feature",
+            tools: "Python (Plotly, NumPy, Pandas, Flask), JavaScript, HTML/CSS, Bootstrap, Google Maps APIs",
         },
 
     ]
@@ -29,7 +29,7 @@
 <section id="projects" class="mt-5 pt-2 mb-7">
     <!-- project header -->
     <div class="text-center">
-        <h1 class="text-2xl md:text-3xl font-semibold mb-2"><span class="underline decoration-5 decoration-sky-400">Projects</span></h1>
+        <h1 class="text-2xl md:text-3xl font-semibold mb-2 underline decoration-wavy decoration-3 decoration-sky-500">Projects</h1>
         <p class="mx-auto max-w-lg font-light text-[.7rem] md:text-sm lg:text-md">To visit the project's GitHub repository, click on the picture!</p>
     </div>
 
@@ -41,8 +41,8 @@
             <!-- structures image and text as a column -->
             <div class="grid grid-cols-1 gap-x-4 items-center m-5">
                 <!-- image of project that links to GitHub -->
-                <a class="outline-4 outline-sky-400 rounded-xl duration-200 hover:scale-98" href="{project.github}" rel="noopener noreferrer" target="_blank">
-                    <img title="{project.name}'s Direct Link" class="grayscale hover:grayscale-0 hover:scale-107 duration-200 ease-in-out rounded-xl" src="{project.picture}" alt="Project Preview">
+                <a class="overflow-hidden outline-4 outline-sky-500 rounded-xl duration-200" href="{project.github}" rel="noopener noreferrer" target="_blank">
+                    <img title="{project.name}'s Direct Link" class="w-full aspect-video scale-100 object-[50%] hover:grayscale-0 hover:scale-125 duration-200 ease-in-out rounded-xl" src="{project.picture}" alt="Project Preview">
                 </a>
 
                 <!-- text for project -->
@@ -52,8 +52,8 @@
                     
                     <!-- project description and tools used -->
                     <div class="font-light text-xs xl:text-sm 2xl:text-base">
-                        <p class="mb-2"><span class="text-sky-400">✱</span> {project.description}</p>
-                        <p class=""><span class="font-semibold underline decoration-2 decoration-sky-400">Built with</span> {project.tools}</p> 
+                        <p class="mb-2"><span class="text-sky-500">✱</span> {project.description}</p>
+                        <p class=""><span class="font-semibold">Built with</span> {project.tools}</p> 
                     </div>
                 </div>
             </div>

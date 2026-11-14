@@ -490,17 +490,29 @@
 
                 <!-- "hi i'm emily" header -->
                 <div class="flex flex-row justify-center md:justify-start">
-                    <h1 class="whitespace-nowrap text-2xl md:text-3xl lg:text-4xl">hi, i'm <span class="font-bold underline deocration-8 decoration-sky-400"> Emily Huang</span>!</h1>
+                    <h1 class="whitespace-nowrap text-2xl md:text-3xl lg:text-4xl">hi, i'm <span class="font-bold underline decoration-wavy decoration-3 decoration-sky-500"> Emily Huang</span>!</h1>
                 </div>
 
                 <div class="font-light text-xs sm:text-sm md:text-md lg:text-[1rem]">
-                    <p class="pt-4">I'm a <span class="font-medium underline decoration-2 decoration-sky-400">Trends Data Research Manager @ Youtube</span> supporting cultural and gaming trends research and <span class="font-medium underline decoration-2 decoration-sky-400">based in Chino Hills, CA</span>.</p>
+                    <p class="pt-4">I'm a <span class="font-semibold">Trends Data Research Manager @ YouTube</span> supporting cultural 
+                        and gaming trends research with <span class="font-semibold">5+ years in product strategy at Microsoft</span>.</p>
                 
-                    <p class="pt-4">A bit more about me:</p>
-                    <div class="list-disc pl-5">
-                        <li><span class="font-medium underline decoration-2 decoration-sky-400">5+ years in product strategy at Microsoft</span>, shaping platform decisions around user needs</li>
-                        <li>Background in <span class="font-medium underline decoration-2 decoration-sky-400">Computer Science (B.S.)</span> and <span class="font-medium underline decoration-2 decoration-sky-400">Information and Data Science (M.S.)</span></li>
-                        <li>Enjoys playing video and board games, watching live theater, and practicing piano :)</li>
+                    <p class="pt-4 font-light">A bit more about me:</p>
+                    <div class="list-none flex flex-col gap-y-1">
+                        <li class="flex gap-x-1 font-light">  
+                            <span class="text-sky-500" aria-hidden="true">✦</span>
+                            <p>Based in Chino Hills, California, USA</p>
+                        </li>
+
+                        <li class="flex gap-x-1 font-light">  
+                            <span class="text-sky-500" aria-hidden="true">✦</span>
+                            <p>Background in Computer Science (B.S.) and Information and Data Science (M.S.)</p>
+                        </li>
+
+                        <li class="flex gap-x-1 font-light">  
+                            <span class="text-sky-500" aria-hidden="true">✦</span>
+                            <p>Enjoys playing video and board games, watching live theater, and practicing piano :)</p>
+                        </li>
                     </div>
                 </div>
             </div>

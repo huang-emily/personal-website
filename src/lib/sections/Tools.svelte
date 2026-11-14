@@ -86,7 +86,7 @@
 <section id="tools" class="mt-4 p-2">
     <!-- TEXT AFTER HEADER -->
     <div class="max-w-2xl flex flex-col gap-y-4">
-        <h1 class="-mb-3 text-center text-2xl md:text-3xl font-semibold"><span class="underline decoration-5 decoration-sky-400">Toolkit</span></h1>
+        <h1 class="-mb-3 text-center text-2xl md:text-3xl font-semibold underline decoration-wavy decoration-3 decoration-sky-500">Toolkit</h1>
 
         <!-- Tools -->
         <div class="flex flex-col gap-y-2 justify-center">
@@ -109,14 +109,14 @@
 
         <!-- Strengths -->
         <div class="mt-3 flex flex-col">
-            <h1 class="mb-1 md:mb-2 text-center text-2xl md:text-3xl font-semibold"><span class="underline decoration-5 decoration-sky-400">Strengths</span></h1>
+            <h1 class="mb-1 md:mb-2 text-center text-2xl md:text-3xl font-semibold underline decoration-wavy decoration-3 decoration-sky-500">Strengths</h1>
 
             <!-- display skills -->
             <div class="mx-auto pl-6 grid grid-cols-1 gap-y-2">
                 <ul class="list-none flex flex-col gap-y-2 text-md sm:text-lg md:text-xl">
                 {#each skills as s}
                     <li class="flex gap-x-2 font-light">
-                        <span class="text-sky-400" aria-hidden="true">✦</span>
+                        <span class="text-sky-500" aria-hidden="true">✦</span>
                         <span>{s.before}<span class="">{s.key}</span>{s.after}</span>
                     </li>
                 {/each}
