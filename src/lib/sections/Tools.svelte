@@ -59,9 +59,9 @@
     
     const skills = [
         { 
-            before: "Adapting to ", 
-            key: "unfamiliar domains and tools", 
-            after: " quickly" },
+            before: "Adapting quickly to ", 
+            key: "unfamiliar domains ", 
+            after: "and tools" },
         { 
             before: "Translating ", 
             key: "data findings", 
