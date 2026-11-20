@@ -1,7 +1,7 @@
 <script lang="ts">
     const projectList = [
         {
-            name: "Byte's Basket",
+            name: "E-commerce Business Insights",
             picture: "/bytes-basket.png",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
             github: "https://github.com/huang-emily/elist_data_analysis",
@@ -17,7 +17,7 @@
             tools: "Python (NumPy, Pandas, Matplotlib, Seaborn, Streamlit), SQL, Tableau",
         },
         {
-            name: "Pedestrian Safety",
+            name: "Pedestrian Safety Analysis",
             picture: "/keepmesafe-snapshot.webp",
             url: "https://keep-me-safe.onrender.com/",
             github: "https://github.com/huang-emily/keep-me-SaFe",
@@ -56,7 +56,7 @@
                 <!-- text for project -->
                 <div class="mt-3">
                     <!-- project title -->
-                    <h1 class="text-center text-md lg:text-lg font-semibold">{project.name}</h1>
+                    <h1 class="text-center text-sm md:text-md  font-semibold">{project.name}</h1>
                     
                     <!-- project description and tools used -->
                     <div class="font-light text-xs xl:text-sm 2xl:text-base">
