@@ -4,7 +4,7 @@
             name: "E-commerce Business Insights",
             picture: "/bytes-basket.png",
             url: "https://huang-emily-gun-violence-trends-1-about-this-project-x3tuz5.streamlit.app/Visualize_the_Data",
-            github: "https://github.com/huang-emily/elist_data_analysis",
+            github: "https://github.com/huang-emily/bytes_basket_data_analysis",
             description: "Tableau dashboard that visualizes the orders data of an e-commerce business and provides insights on sales trends and customer behaviour",
             tools: "Excel, BigQuery, Tableau",
         },
